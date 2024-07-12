@@ -28,4 +28,9 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene("level" + level);
     }
+
+    public void Hit(Brick brick)
+    {
+        this.score += brick.points;
+    }
 }
