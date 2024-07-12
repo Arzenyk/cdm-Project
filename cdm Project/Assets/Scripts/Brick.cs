@@ -2,17 +2,11 @@ using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
-    public SpriteRenderer spriteRenderer
-    {
-        get; private set;
-    }
+    public SpriteRenderer spriteRenderer {  get; private set; }
 
     public Sprite[] states;
     
-    public int health
-    {
-        get; private set;
-    }
+    public int health {  get; private set; }
 
     public int points = 100;
 
@@ -25,10 +19,17 @@ public class Brick : MonoBehaviour
 
     private void Start()
     {
+        ResetBricks();
+    }
+
+    public void ResetBricks()
+    {
+        this.gameObject.SetActive(true);
+
         if (!unbreakable)
         {
             this.health = this.states.Length;
-            this.spriteRenderer.sprite = this.states[this.health -1];
+            this.spriteRenderer.sprite = this.states[this.health - 1];
         }
     }
 

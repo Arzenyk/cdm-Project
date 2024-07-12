@@ -2,15 +2,9 @@ using UnityEngine;
 
 public class Paddle : MonoBehaviour
 {
-    public new Rigidbody2D rigidbody
-    {
-        get; private set;
-    }
+    public new Rigidbody2D rigidbody { get; private set; }
 
-    public Vector2 direction
-    {
-        get; private set;
-    }
+    public Vector2 direction { get; private set; }
 
     public float speed = 30f;
     public float maxbounceAngle = 75f;
@@ -18,6 +12,12 @@ public class Paddle : MonoBehaviour
     private void Awake()
     {
         this.rigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    public void ResetPaddle()
+    {
+        this.transform.position = new Vector2(0f, this.transform.position.y);
+        this.rigidbody.velocity = Vector2.zero;
     }
 
     private void Update()
