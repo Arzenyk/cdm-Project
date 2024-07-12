@@ -33,7 +33,14 @@ public class GameManager : MonoBehaviour
     {
         this.level = level;
 
-        SceneManager.LoadScene("level" + level);
+        if (level > 10)
+        {
+            SceneManager.LoadScene("WinScreen");
+        }
+        else
+        {
+            SceneManager.LoadScene("level" + level);
+        }
     }
 
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
@@ -80,5 +87,23 @@ public class GameManager : MonoBehaviour
     public void Hit(Brick brick)
     {
         this.score += brick.points;
+
+        if (Cleared())
+        {
+            LoadLevel(this.level + 1);
+        }
+    }
+
+    private bool Cleared()
+    {
+        for (int i = 0; i < this.bricks.Length; i++)
+        {
+            if (this.bricks[i].gameObject.activeInHierarchy && !this.bricks[i].unbreakable)
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
