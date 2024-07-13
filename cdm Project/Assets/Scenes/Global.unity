@@ -166,6 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5f7db71b3bb954ba3ccb524841ae5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: 1
+  score: 0
+  lives: 3
+  Scoretxt: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
