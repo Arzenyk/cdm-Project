@@ -68,7 +68,6 @@ public class GameManager : MonoBehaviour
     {
         this.ball.ResetBall();
         this.paddle.ResetPaddle();
-        this.score = 0;
 
         /*
         for (int i = 0; i < this.bricks.Length; i++)
