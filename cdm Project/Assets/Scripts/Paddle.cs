@@ -9,9 +9,20 @@ public class Paddle : MonoBehaviour
     public float speed = 30f;
     public float maxbounceAngle = 75f;
 
+    private GameManager gm;
+
     private void Awake()
     {
         this.rigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    private void Start()
+    {
+        gm = GameManager.Instance;
+        if (gm == null)
+        {
+            Debug.LogError("GameManager instance not found!");
+        }
     }
 
     public void ResetPaddle()
@@ -22,6 +33,11 @@ public class Paddle : MonoBehaviour
 
     private void Update()
     {
+        if (gm != null && gm.gameOver)
+        {
+            return;
+        }
+
         if (Input.GetKey(KeyCode.A))
         {
             this.direction = Vector2.left;
@@ -38,6 +54,11 @@ public class Paddle : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (gm != null && gm.gameOver)
+        {
+            return;
+        }
+
         if (this.direction != Vector2.zero)
         {
             this.rigidbody.AddForce(this.direction * this.speed);

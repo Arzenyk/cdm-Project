@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using TMPro.EditorUtilities;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,13 +14,26 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public int lives = 3;
 
-    public TMP_Text Scoretxt;
-    public TMP_Text Livestxt;
-    public TMP_Text Leveltxt;
+    private TMP_Text Scoretxt;
+    private TMP_Text Livestxt;
+    private TMP_Text Leveltxt;
+
+    public bool gameOver = false;
+
+    private GameObject gameOverPanel;
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject); // Destroy any duplicate GameManager instances
+            return;
+        }
 
         SceneManager.sceneLoaded += OnLevelLoaded;
     }
@@ -27,15 +41,16 @@ public class GameManager : MonoBehaviour
     {
         NewGame();
     }
-    private void NewGame()
+    public void NewGame()
     {
         this.score = 0;
         this.lives = 3;
+        this.gameOver = false;
 
         LoadLevel(1);
     }
 
-    private void LoadLevel(int level)
+    public void LoadLevel(int level)
     {
         this.level = level;
 
@@ -59,29 +74,68 @@ public class GameManager : MonoBehaviour
         Livestxt = GameObject.Find("Livestxt").GetComponent<TMP_Text>();
         Leveltxt = GameObject.Find("Leveltxt").GetComponent<TMP_Text>();
 
+        GameObject canvas = GameObject.Find("Canvas");
+
+        if (canvas != null)
+        {
+            gameOverPanel = canvas.transform.Find("GameOverPanel").gameObject;
+            if (gameOverPanel != null)
+            {
+                gameOverPanel.SetActive(false); // Ensure the panel is hidden at the start
+            }
+            else
+            {
+                Debug.LogWarning("GameOverPanel not found in the Canvas.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Canvas not found in the scene.");
+        }
+
         UpdateScoreText();
         UpdateLivesText();
         UpdateLevelText();
     }
 
-    private void ResetLevel()
+    public void ResetLevel()
+    {
+        ResetBallgm();
+        ResetPaddlegm();
+        gameOver = false;
+        this.lives = 3;
+        this.score = 0;
+        SceneManager.LoadScene("level" + 1);
+    }
+
+    private void ResetBallgm()
     {
         this.ball.ResetBall();
-        this.paddle.ResetPaddle();
+    }
 
-        /*
-        for (int i = 0; i < this.bricks.Length; i++)
-        {
-            this.bricks[i].ResetBricks();
-        }
-        */
+    private void ResetPaddlegm()
+    {
+        this.paddle.ResetPaddle();
     }
 
     private void GameOver()
     {
-        // SceneManager.LoadScene("GameOver");
+        gameOver = true;
 
-        NewGame();
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+            Debug.Log("GameOverPanel set to active.");
+        }
+        else
+        {
+            Debug.LogWarning("GameOverPanel not found in the Canvas at game over.");
+        }
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 
     public void Miss()
@@ -90,11 +144,13 @@ public class GameManager : MonoBehaviour
 
         if (this.lives > 0)
         {
-            ResetLevel();
+            ResetBallgm();
+            ResetPaddlegm();
             UpdateLivesText();
         }
         else
         {
+            UpdateLivesText();
             GameOver();
         }
     }
