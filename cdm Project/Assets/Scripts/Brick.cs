@@ -12,6 +12,12 @@ public class Brick : MonoBehaviour
 
     public bool unbreakable;
 
+    public Transform explosionBlue;
+    public Transform explosionGreen;
+    public Transform explosionYellow;
+    public Transform explosionOrange;
+    public Transform explosionRed;
+
     private void Awake()
     {
         this.spriteRenderer = GetComponent<SpriteRenderer>();
@@ -40,15 +46,44 @@ public class Brick : MonoBehaviour
             return;
         }
 
-        this.health--;
-
-        if (this.health <= 0)
+        if (this.health == 5)
         {
-            this.gameObject.SetActive(false);
-        }
-        else
-        {
+            //Red
+            this.health--;
             this.spriteRenderer.sprite = this.states[this.health - 1];
+            Transform newExplosionRed = Instantiate(explosionRed, transform.position, transform.rotation);
+            Destroy (newExplosionRed.gameObject, 2.5f);
+        }
+        else if (this.health == 4)
+        {
+            //Orange
+            this.health--;
+            this.spriteRenderer.sprite = this.states[this.health - 1];
+            Transform newExplosionOrange = Instantiate(explosionOrange, transform.position, transform.rotation);
+            Destroy (newExplosionOrange.gameObject, 2.5f);
+        }
+        else if (this.health == 3)
+        {
+            //Yellow
+            this.health--;
+            this.spriteRenderer.sprite = this.states[this.health - 1];
+            Transform newExplosionYellow = Instantiate(explosionYellow, transform.position, transform.rotation);
+            Destroy (newExplosionYellow.gameObject, 2.5f);
+        }
+        else if (this.health == 2)
+        {
+            //Green
+            this.health--;
+            this.spriteRenderer.sprite = this.states[this.health - 1];
+            Transform newExplosionGreen = Instantiate(explosionGreen, transform.position, transform.rotation);
+            Destroy (newExplosionGreen.gameObject, 2.5f);
+        }
+        else if (this.health == 1)
+        {
+            //Blue
+            this.gameObject.SetActive(false);
+            Transform newExplosionBlue = Instantiate(explosionBlue, transform.position, transform.rotation);
+            Destroy (newExplosionBlue.gameObject, 2.5f);
         }
 
         FindObjectOfType<GameManager>().Hit(this);
