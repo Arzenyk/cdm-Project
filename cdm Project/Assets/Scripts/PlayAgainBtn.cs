@@ -1,13 +1,17 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayAgainBtn : MonoBehaviour
 {
+    private GameManager gm;
+
     public void PlayAgain()
     {
         if (GameManager.Instance != null)
         {
-            GameManager.Instance.ResetLevel();
+            gm = GameManager.Instance;
+            gm.NewGame();
         }
         else
         {

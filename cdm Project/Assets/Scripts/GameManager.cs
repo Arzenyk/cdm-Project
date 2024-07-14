@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        NewGame();
+
     }
     public void NewGame()
     {
@@ -99,6 +99,7 @@ public class GameManager : MonoBehaviour
         UpdateScoreText();
         UpdateLivesText();
         UpdateLevelText();
+        UpdateHighscoreText();
     }
 
     public void ResetLevel()
@@ -221,6 +222,12 @@ public class GameManager : MonoBehaviour
         {
             Leveltxt.text = "Level: " + level;
         }
+    }
+
+    private void UpdateHighscoreText()
+    {
+        int highScore = PlayerPrefs.GetInt("HIGHSCORE");
+        HighScoretxt.text = "High Score: " + highScore;
     }
 
     public void AddLife()
