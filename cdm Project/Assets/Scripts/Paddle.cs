@@ -10,6 +10,7 @@ public class Paddle : MonoBehaviour
     public float maxbounceAngle = 75f;
 
     private GameManager gm;
+    public Ball ball;
 
     private void Awake()
     {
@@ -85,5 +86,11 @@ public class Paddle : MonoBehaviour
 
             ball.rigidbody.velocity = rotation * Vector2.up * ball.rigidbody.velocity.magnitude;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        ball.DuplicateBall();
+        Destroy (other.gameObject);
     }
 }

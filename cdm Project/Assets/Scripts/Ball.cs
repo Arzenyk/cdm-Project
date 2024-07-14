@@ -9,6 +9,8 @@ public class Ball : MonoBehaviour
 
     private GameManager gm;
 
+    public GameObject BallDuplicate;
+
     private void Awake()
     {
         this.rigidbody = GetComponent<Rigidbody2D>();
@@ -61,5 +63,20 @@ public class Ball : MonoBehaviour
         }
 
         rigidbody.velocity = rigidbody.velocity.normalized * speed;
+    }
+
+    public void DuplicateBall()
+    {
+        GameObject newBall = Instantiate(BallDuplicate, this.transform.position, this.transform.rotation);
+
+        Ball ballComponent = newBall.GetComponent<Ball>();
+        if (ballComponent != null)
+        {
+            ballComponent.SetRandomTrajectory();
+        }
+        else
+        {
+            Debug.LogError("The duplicated ball does not have a Ball component!");
+        }
     }
 }

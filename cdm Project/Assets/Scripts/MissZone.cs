@@ -8,5 +8,10 @@ public class MissZone : MonoBehaviour
         {
             FindObjectOfType<GameManager>().Miss();
         }
+
+        if (collision.gameObject.name == "Ball(Clone)")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }

@@ -139,6 +139,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: fc2bf5c9d6c3c284fbbbbd6487de2bcc, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -371,6 +375,10 @@ PrefabInstance:
       value: Brick
       objectReference: {fileID: 0}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -534,6 +542,10 @@ PrefabInstance:
       value: Brick
       objectReference: {fileID: 0}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -623,6 +635,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f0ab673d3414fdb419f7e9685d58ec3b, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
@@ -908,6 +924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   maxbounceAngle: 75
+  ball: {fileID: 1100449314}
 --- !u!1 &551278185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,6 +1404,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f0ab673d3414fdb419f7e9685d58ec3b, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -1477,6 +1498,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f0ab673d3414fdb419f7e9685d58ec3b, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -1562,6 +1587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
@@ -1686,6 +1715,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: fc2bf5c9d6c3c284fbbbbd6487de2bcc, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
@@ -1911,6 +1944,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f0ab673d3414fdb419f7e9685d58ec3b, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -2069,6 +2106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
@@ -2293,6 +2334,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f0ab673d3414fdb419f7e9685d58ec3b, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
@@ -2529,6 +2574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  BallDuplicate: {fileID: 1100449309}
 --- !u!1 &1422327615
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,6 +2904,10 @@ PrefabInstance:
       value: Brick
       objectReference: {fileID: 0}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -2947,6 +2997,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: fc2bf5c9d6c3c284fbbbbd6487de2bcc, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
@@ -3116,6 +3170,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: fc2bf5c9d6c3c284fbbbbd6487de2bcc, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3274,6 +3332,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: fc2bf5c9d6c3c284fbbbbd6487de2bcc, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3363,6 +3425,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f0ab673d3414fdb419f7e9685d58ec3b, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
@@ -3454,6 +3520,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: fc2bf5c9d6c3c284fbbbbd6487de2bcc, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3543,6 +3613,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f0ab673d3414fdb419f7e9685d58ec3b, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
@@ -3668,6 +3742,10 @@ PrefabInstance:
       value: Brick
       objectReference: {fileID: 0}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3753,6 +3831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
@@ -3843,6 +3925,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: fc2bf5c9d6c3c284fbbbbd6487de2bcc, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: powerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 

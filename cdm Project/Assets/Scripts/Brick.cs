@@ -18,6 +18,8 @@ public class Brick : MonoBehaviour
     public Transform explosionOrange;
     public Transform explosionRed;
 
+    public Transform powerup;
+
     private void Awake()
     {
         this.spriteRenderer = GetComponent<SpriteRenderer>();
@@ -91,9 +93,26 @@ public class Brick : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        PowerupChance();
+
         if (collision.gameObject.name == "Ball")
         {
             Hit();
+        }
+
+        if (collision.gameObject.name == "Ball(Clone)")
+        {
+            Hit();
+        }
+    }
+
+    public void PowerupChance()
+    {
+        int randChance = Random.Range(1, 101);
+
+        if (randChance > 90)
+        {
+            Instantiate(powerup, transform.position, transform.rotation);
         }
     }
 }
