@@ -69,6 +69,8 @@ public class Ball : MonoBehaviour
     {
         GameObject newBall = Instantiate(BallDuplicate, this.transform.position, this.transform.rotation);
 
+        newBall.tag = "Ball Clone";
+
         Ball ballComponent = newBall.GetComponent<Ball>();
         if (ballComponent != null)
         {

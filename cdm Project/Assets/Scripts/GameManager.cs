@@ -204,4 +204,10 @@ public class GameManager : MonoBehaviour
             Leveltxt.text = "Level: " + level;
         }
     }
+
+    public void AddLife()
+    {
+        this.lives++;
+        UpdateLivesText();
+    }
 }

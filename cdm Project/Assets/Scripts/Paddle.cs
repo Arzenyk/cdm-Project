@@ -90,7 +90,15 @@ public class Paddle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        ball.DuplicateBall();
-        Destroy (other.gameObject);
+        if (other.gameObject.name == "Duplicate PowerUp(Clone)")
+        {
+            ball.DuplicateBall();
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.name == "Life Powerup(Clone)")
+        {
+            gm.AddLife();
+            Destroy(other.gameObject);
+        }
     }
 }

@@ -143,6 +143,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -162,6 +166,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 2
@@ -379,6 +387,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -398,6 +410,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 1
@@ -546,6 +562,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -565,6 +585,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 1
@@ -640,6 +664,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -659,6 +687,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 3
@@ -1408,6 +1440,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -1427,6 +1463,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 3
@@ -1502,6 +1542,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -1521,6 +1565,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 3
@@ -1592,6 +1640,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -1611,6 +1663,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 1
@@ -1720,6 +1776,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -1739,6 +1799,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 2
@@ -1948,6 +2012,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -1967,6 +2035,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 3
@@ -2111,6 +2183,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -2130,6 +2206,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 1
@@ -2339,6 +2419,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -2358,6 +2442,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 3
@@ -2908,6 +2996,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -2927,6 +3019,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 1
@@ -3002,6 +3098,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3021,6 +3121,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 2
@@ -3174,6 +3278,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3193,6 +3301,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 2
@@ -3336,6 +3448,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3355,6 +3471,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 2
@@ -3430,6 +3550,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3449,6 +3573,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 3
@@ -3524,6 +3652,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3543,6 +3675,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 2
@@ -3618,6 +3754,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3637,6 +3777,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 3
@@ -3746,6 +3890,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3765,6 +3913,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 1
@@ -3836,6 +3988,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3855,6 +4011,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 1
@@ -3930,6 +4090,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: LifePowerup
+      value: 
+      objectReference: {fileID: 7092541405639051555, guid: 0482dab70f65aeb47b3197a475830e58, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: explosionRed
       value: 
       objectReference: {fileID: 6783775143998113823, guid: 0d41f04ea4df7864a828fe3fe591c557, type: 3}
@@ -3949,6 +4113,10 @@ PrefabInstance:
       propertyPath: explosionYellow
       value: 
       objectReference: {fileID: 8930462138923694369, guid: 3e00ec28dcf5c794988d899c5264469a, type: 3}
+    - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
+      propertyPath: DuplicatePowerup
+      value: 
+      objectReference: {fileID: 616384318820601389, guid: b620ac182ff96b8489ffe50801dccc6c, type: 3}
     - target: {fileID: 2583339988005993224, guid: 2835ce46a86a53e4399923fbeff405ef, type: 3}
       propertyPath: states.Array.size
       value: 2

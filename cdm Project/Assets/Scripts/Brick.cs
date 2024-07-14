@@ -18,7 +18,8 @@ public class Brick : MonoBehaviour
     public Transform explosionOrange;
     public Transform explosionRed;
 
-    public Transform powerup;
+    public Transform DuplicatePowerup;
+    public Transform LifePowerup;
 
     private void Awake()
     {
@@ -112,7 +113,11 @@ public class Brick : MonoBehaviour
 
         if (randChance > 90)
         {
-            Instantiate(powerup, transform.position, transform.rotation);
+            Instantiate(DuplicatePowerup, transform.position, transform.rotation);
+        }
+        else if(randChance > 20 && randChance < 30)
+        {
+            Instantiate(LifePowerup, transform.position, transform.rotation);
         }
     }
 }
