@@ -8,7 +8,6 @@ public class PlayAgainBtn : MonoBehaviour
         if (GameManager.Instance != null)
         {
             GameManager.Instance.ResetLevel();
-            Debug.Log("Game Quit");
         }
         else
         {

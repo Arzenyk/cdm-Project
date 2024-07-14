@@ -17,10 +17,12 @@ public class GameManager : MonoBehaviour
     private TMP_Text Scoretxt;
     private TMP_Text Livestxt;
     private TMP_Text Leveltxt;
+    private TMP_Text HighScoretxt;
 
     public bool gameOver = false;
 
     private GameObject gameOverPanel;
+    private GameObject HighScoreInPanel;
 
     private void Awake()
     {
@@ -73,6 +75,7 @@ public class GameManager : MonoBehaviour
         Scoretxt = GameObject.Find("Scoretxt").GetComponent<TMP_Text>();
         Livestxt = GameObject.Find("Livestxt").GetComponent<TMP_Text>();
         Leveltxt = GameObject.Find("Leveltxt").GetComponent<TMP_Text>();
+        HighScoretxt = GameObject.Find("HighScoretxt").GetComponent<TMP_Text>();
 
         GameObject canvas = GameObject.Find("Canvas");
 
@@ -126,6 +129,21 @@ public class GameManager : MonoBehaviour
         {
             gameOverPanel.SetActive(true);
             Debug.Log("GameOverPanel set to active.");
+
+            HighScoreInPanel = GameObject.Find("Canvas/Panel/HighScoretxt");
+
+            int highScore = PlayerPrefs.GetInt("HIGHSCORE");
+            if (this.score > highScore)
+            {
+                PlayerPrefs.SetInt("HIGHSCORE", this.score);
+
+                HighScoretxt.text = "New High Score: " + this.score;
+            }
+            else
+            {
+                HighScoretxt.text = "High Score " + highScore + "\n" + "Can you beat it?";
+            }
+            
         }
         else
         {
