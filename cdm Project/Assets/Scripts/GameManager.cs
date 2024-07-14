@@ -91,10 +91,6 @@ public class GameManager : MonoBehaviour
                 Debug.LogWarning("GameOverPanel not found in the Canvas.");
             }
         }
-        else
-        {
-            Debug.LogWarning("Canvas not found in the scene.");
-        }
 
         UpdateScoreText();
         UpdateLivesText();
