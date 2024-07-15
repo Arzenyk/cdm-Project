@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: bbad1858c4582f146900206f049aca30, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -149,4 +149,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f0ab673d3414fdb419f7e9685d58ec3b, type: 3}
   - {fileID: 21300000, guid: 51920197c26f57f428d08ef53600fdfe, type: 3}
   - {fileID: 21300000, guid: 395affa1a73a24e45bfd50cb04404056, type: 3}
+  points: 100
   unbreakable: 0
+  explosionBlue: {fileID: 0}
+  explosionGreen: {fileID: 0}
+  explosionYellow: {fileID: 0}
+  explosionOrange: {fileID: 0}
+  explosionRed: {fileID: 0}
+  DuplicatePowerup: {fileID: 0}
+  LifePowerup: {fileID: 0}
