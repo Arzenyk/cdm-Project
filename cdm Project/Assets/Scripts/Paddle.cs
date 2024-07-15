@@ -40,6 +40,10 @@ public class Paddle : MonoBehaviour
         {
             return;
         }
+        if (gm != null && gm.levelWon)
+        {
+            return;
+        }
 
         if (Input.GetKey(KeyCode.A))
         {

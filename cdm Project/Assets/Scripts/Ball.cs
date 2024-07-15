@@ -19,10 +19,6 @@ public class Ball : MonoBehaviour
     private void Start()
     {
         gm = GameManager.Instance;
-        if (gm == null)
-        {
-            Debug.LogError("GameManager instance not found!");
-        }
 
         ResetBall();
     }
@@ -32,7 +28,7 @@ public class Ball : MonoBehaviour
         this.transform.position = Vector2.zero;
         this.rigidbody.velocity = Vector2.zero;
 
-        if (gm != null && gm.gameOver)
+        if (gm.levelWon || gm.gameOver)
         {
             return;
         }
@@ -42,7 +38,7 @@ public class Ball : MonoBehaviour
 
     private void SetRandomTrajectory()
     {
-        if (gm != null && gm.gameOver)
+        if (gm.levelWon || gm.gameOver)
         {
             return;
         }
@@ -55,7 +51,7 @@ public class Ball : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (gm != null && gm.gameOver)
+        if (gm.levelWon || gm.gameOver)
         {
             ResetBall();
             rigidbody.velocity = Vector2.zero;  // Stop the ball's movement

@@ -20,9 +20,11 @@ public class GameManager : MonoBehaviour
     private TMP_Text HighScoretxt;
 
     public bool gameOver = false;
+    public bool levelWon = false;
 
     private GameObject gameOverPanel;
     private GameObject HighScoreInPanel;
+    private GameObject LevelCompletePanel;
 
 
     private void Awake()
@@ -81,6 +83,9 @@ public class GameManager : MonoBehaviour
         HighScoretxt = canvas.transform.Find("GameOverPanel/HighScoretxt").GetComponent<TMP_Text>();
         
         gameOver = false;
+        levelWon = false;
+        LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
+        LevelCompletePanel.SetActive(false);
         UpdateScoreText();
         UpdateLivesText();
         UpdateLevelText();
@@ -160,13 +165,14 @@ public class GameManager : MonoBehaviour
 
         if (Cleared())
         {
-            LoadLevel(this.level + 1);
-            lives = 3;
-            UpdateLivesText();
+            GameObject canvas = GameObject.Find("Canvas");
+            LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
+            LevelCompletePanel.SetActive(true);
+            levelWon = true;
         }
     }
 
-    private bool Cleared()
+    public bool Cleared()
     {
         for (int i = 0; i < this.bricks.Length; i++)
         {
@@ -213,5 +219,10 @@ public class GameManager : MonoBehaviour
     {
         this.lives++;
         UpdateLivesText();
+    }
+
+    public void LoadNextLevel()
+    {
+        LoadLevel(this.level + 1);
     }
 }
