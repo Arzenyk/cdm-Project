@@ -162,6 +162,7 @@ public class GameManager : MonoBehaviour
     {
         this.score += brick.points;
         UpdateScoreText();
+        UpdateHighscoreText();
 
         if (Cleared())
         {
@@ -232,5 +233,6 @@ public class GameManager : MonoBehaviour
         GameObject canvas = GameObject.Find("Canvas");
         LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
         LevelCompletePanel.SetActive(true);
+        UpdateHighscoreText();
     }
 }
