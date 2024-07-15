@@ -57,6 +57,10 @@ public class Paddle : MonoBehaviour
         {
             PausarJuego();
         }
+        else if (Input.GetKeyDown(KeyCode.N))
+        {
+            GameManager.Instance.forceLevelWon();
+        }
         else
         {
             this.direction = Vector2.zero;

@@ -225,4 +225,12 @@ public class GameManager : MonoBehaviour
     {
         LoadLevel(this.level + 1);
     }
+
+    public void forceLevelWon()
+    {
+        levelWon = true;
+        GameObject canvas = GameObject.Find("Canvas");
+        LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
+        LevelCompletePanel.SetActive(true);
+    }
 }
