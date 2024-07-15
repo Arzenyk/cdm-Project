@@ -75,23 +75,11 @@ public class GameManager : MonoBehaviour
         Scoretxt = GameObject.Find("Scoretxt").GetComponent<TMP_Text>();
         Livestxt = GameObject.Find("Livestxt").GetComponent<TMP_Text>();
         Leveltxt = GameObject.Find("Leveltxt").GetComponent<TMP_Text>();
-        HighScoretxt = GameObject.Find("HighScoretxt").GetComponent<TMP_Text>();
 
         GameObject canvas = GameObject.Find("Canvas");
-
-        if (canvas != null)
-        {
-            gameOverPanel = canvas.transform.Find("GameOverPanel").gameObject;
-            if (gameOverPanel != null)
-            {
-                gameOverPanel.SetActive(false); // Ensure the panel is hidden at the start
-            }
-            else
-            {
-                Debug.LogWarning("GameOverPanel not found in the Canvas.");
-            }
-        }
-
+        HighScoretxt = canvas.transform.Find("GameOverPanel/HighScoretxt").GetComponent<TMP_Text>();
+        
+        gameOver = false;
         UpdateScoreText();
         UpdateLivesText();
         UpdateLevelText();
@@ -121,30 +109,24 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         gameOver = true;
+        GameObject canvas = GameObject.Find("Canvas");
+        gameOverPanel = canvas.transform.Find("GameOverPanel").gameObject;
+        gameOverPanel.SetActive(true);
+        Debug.Log("GameOverPanel set to active.");
 
-        if (gameOverPanel != null)
+        HighScoreInPanel = GameObject.Find("Canvas/GameOverPanel/HighScoretxt");
+
+
+        int highScore = PlayerPrefs.GetInt("HIGHSCORE");
+        if (this.score > highScore)
         {
-            gameOverPanel.SetActive(true);
-            Debug.Log("GameOverPanel set to active.");
+            PlayerPrefs.SetInt("HIGHSCORE", this.score);
 
-            HighScoreInPanel = GameObject.Find("Canvas/Panel/HighScoretxt");
-
-            int highScore = PlayerPrefs.GetInt("HIGHSCORE");
-            if (this.score > highScore)
-            {
-                PlayerPrefs.SetInt("HIGHSCORE", this.score);
-
-                HighScoretxt.text = "New High Score: " + this.score;
-            }
-            else
-            {
-                HighScoretxt.text = "High Score " + highScore + "\n" + "Can you beat it?";
-            }
-            
+            HighScoretxt.text = "New High Score: " + this.score;
         }
         else
         {
-            Debug.LogWarning("GameOverPanel not found in the Canvas at game over.");
+            HighScoretxt.text = "High Score " + highScore + "\n" + "Can you beat it?";
         }
     }
 
