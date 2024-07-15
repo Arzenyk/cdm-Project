@@ -12,6 +12,8 @@ public class Paddle : MonoBehaviour
     private GameManager gm;
     public Ball ball;
 
+    private bool Pausado = false;
+
     private void Awake()
     {
         this.rigidbody = GetComponent<Rigidbody2D>();
@@ -46,6 +48,10 @@ public class Paddle : MonoBehaviour
         else if (Input.GetKey(KeyCode.D))
         {
             this.direction = Vector2.right;
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PausarJuego();
         }
         else
         {
@@ -100,5 +106,29 @@ public class Paddle : MonoBehaviour
             gm.AddLife();
             Destroy(other.gameObject);
         }
+    }
+
+    public void PausarJuego()
+    {
+        if (Pausado)
+        {
+            ResumirJuego();
+        }
+        else
+        {
+            PausarPantalla();
+        }
+    }
+
+    public void ResumirJuego()
+    {
+        Time.timeScale = 1;
+        Pausado = false;
+    }
+
+    public void PausarPantalla()
+    {
+        Time.timeScale = 0;
+        Pausado = true;
     }
 }

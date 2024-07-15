@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     private GameObject gameOverPanel;
     private GameObject HighScoreInPanel;
 
+
     private void Awake()
     {
         if (Instance == null)
