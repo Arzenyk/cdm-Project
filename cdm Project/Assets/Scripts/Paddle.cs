@@ -14,6 +14,11 @@ public class Paddle : MonoBehaviour
 
     private bool Pausado = false;
 
+    public AudioClip addLifeSound;
+    public AudioClip duplicateBallSound;
+
+    AudioSource AudioSource;
+
     private void Awake()
     {
         this.rigidbody = GetComponent<Rigidbody2D>();
@@ -21,6 +26,7 @@ public class Paddle : MonoBehaviour
 
     private void Start()
     {
+        AudioSource = GetComponent<AudioSource>();
         gm = GameManager.Instance;
         if (gm == null)
         {
@@ -60,6 +66,10 @@ public class Paddle : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.N))
         {
             GameManager.Instance.forceLevelWon();
+        }
+        else if (Input.GetKeyDown(KeyCode.M))
+        {
+            GameManager.Instance.StopCancionSound();
         }
         else
         {
@@ -106,11 +116,13 @@ public class Paddle : MonoBehaviour
     {
         if (other.gameObject.name == "Duplicate PowerUp(Clone)")
         {
-            ball.DuplicateBall();
+            PlayDuplicatelifeSound();
             Destroy(other.gameObject);
+            ball.DuplicateBall();
         }
         if (other.gameObject.name == "Life Powerup(Clone)")
         {
+            PlayAddLifeSound();
             gm.AddLife();
             Destroy(other.gameObject);
         }
@@ -138,5 +150,19 @@ public class Paddle : MonoBehaviour
     {
         Time.timeScale = 0;
         Pausado = true;
+    }
+
+    public void PlayAddLifeSound()
+    {
+        AudioSource.clip = addLifeSound;
+        AudioSource.loop = false;
+        AudioSource.Play();
+    }
+
+    public void PlayDuplicatelifeSound()
+    {
+        AudioSource.clip = duplicateBallSound;
+        AudioSource.loop = false;
+        AudioSource.Play();
     }
 }

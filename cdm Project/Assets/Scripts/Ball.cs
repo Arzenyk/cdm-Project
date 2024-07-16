@@ -11,6 +11,8 @@ public class Ball : MonoBehaviour
 
     public GameObject BallDuplicate;
 
+    AudioSource hittingBrick;
+
     private void Awake()
     {
         this.rigidbody = GetComponent<Rigidbody2D>();
@@ -19,7 +21,7 @@ public class Ball : MonoBehaviour
     private void Start()
     {
         gm = GameManager.Instance;
-
+        hittingBrick = GetComponent<AudioSource>();
         ResetBall();
     }
 
@@ -76,5 +78,19 @@ public class Ball : MonoBehaviour
         {
             Debug.LogError("The duplicated ball does not have a Ball component!");
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Brick")
+        {
+            SoundHittingBrick();
+        }
+    }
+
+    private void SoundHittingBrick()
+    {
+        hittingBrick.enabled = true;
+        hittingBrick.Play();
     }
 }

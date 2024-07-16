@@ -44,11 +44,6 @@ public class Brick : MonoBehaviour
 
     private void Hit()
     {
-        if (this.unbreakable)
-        {
-            return;
-        }
-
         if (this.health == 5)
         {
             //Red
@@ -96,12 +91,13 @@ public class Brick : MonoBehaviour
     {
         PowerupChance();
 
-        if (collision.gameObject.name == "Ball")
+
+        if (this.unbreakable)
         {
-            Hit();
+            return;
         }
 
-        if (collision.gameObject.name == "Ball(Clone)")
+        if (collision.gameObject.name == "Ball" || collision.gameObject.name == "Ball(Clone)")
         {
             Hit();
         }

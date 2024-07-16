@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using TMPro.EditorUtilities;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -21,12 +22,18 @@ public class GameManager : MonoBehaviour
 
     public bool gameOver = false;
     public bool levelWon = false;
+    public bool mutedGame = false;
 
     private GameObject gameOverPanel;
     private GameObject HighScoreInPanel;
     private GameObject LevelCompletePanel;
 
+    public AudioClip cancion;
+    public AudioClip gameOverSound;
+    public AudioClip lostLifeSound;
+    public AudioClip wonLevelSound;
 
+    private AudioSource audioSource;
     private void Awake()
     {
         if (Instance == null)
@@ -44,7 +51,7 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
     }
     public void NewGame()
     {
@@ -90,6 +97,11 @@ public class GameManager : MonoBehaviour
         UpdateLivesText();
         UpdateLevelText();
         UpdateHighscoreText();
+
+        if (!mutedGame)
+        {
+            playCancionSound();
+        }
     }
 
     public void ResetLevel()
@@ -115,6 +127,7 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         gameOver = true;
+        PlayGameOverSound();
         GameObject canvas = GameObject.Find("Canvas");
         gameOverPanel = canvas.transform.Find("GameOverPanel").gameObject;
         gameOverPanel.SetActive(true);
@@ -144,12 +157,13 @@ public class GameManager : MonoBehaviour
     public void Miss()
     {
         this.lives--;
-
+        
         if (this.lives > 0)
         {
             ResetBallgm();
             ResetPaddlegm();
             UpdateLivesText();
+            PlayLostLifeSound();
         }
         else
         {
@@ -170,6 +184,7 @@ public class GameManager : MonoBehaviour
             LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
             LevelCompletePanel.SetActive(true);
             levelWon = true;
+            PlayWonLevelSound();
         }
     }
 
@@ -229,10 +244,59 @@ public class GameManager : MonoBehaviour
 
     public void forceLevelWon()
     {
+        PlayWonLevelSound();
         levelWon = true;
         GameObject canvas = GameObject.Find("Canvas");
         LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
         LevelCompletePanel.SetActive(true);
         UpdateHighscoreText();
+    }
+
+    private void PlayGameOverSound()
+    {
+        audioSource.Stop();
+
+        audioSource.clip = gameOverSound;
+        audioSource.loop = false;
+        audioSource.Play();
+    }
+
+    private void PlayLostLifeSound()
+    {
+        StartCoroutine(PlayLostLifeSoundCoroutine());
+    }
+
+    private IEnumerator PlayLostLifeSoundCoroutine()
+    {
+        audioSource.Stop();
+
+        audioSource.clip = lostLifeSound;
+        audioSource.loop = false;
+        audioSource.Play();
+
+        yield return new WaitForSeconds(audioSource.clip.length);
+
+        playCancionSound();
+    }
+
+    private void PlayWonLevelSound()
+    {
+        audioSource.clip = wonLevelSound;
+        audioSource.loop = false;
+        audioSource.Play();
+    }
+
+    private void playCancionSound()
+    {
+        audioSource.clip = cancion;
+        audioSource.loop = true;
+        audioSource.Play();
+    }
+
+    public void StopCancionSound()
+    {
+        audioSource.clip = cancion;
+        audioSource.enabled = false;
+        mutedGame = true;
     }
 }
