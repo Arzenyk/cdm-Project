@@ -6,6 +6,8 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
+    private CondeScript condeScript;
+
     public static GameManager Instance { get; private set; }
     public Ball ball {  get; private set; }
     public Paddle paddle { get; private set; }
@@ -52,6 +54,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        condeScript = GameObject.FindGameObjectWithTag("Conde").GetComponent<CondeScript>();
     }
     public void NewGame()
     {
@@ -78,6 +81,7 @@ public class GameManager : MonoBehaviour
 
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
+        condeScript = FindObjectOfType<CondeScript>();
         this.ball = FindObjectOfType<Ball>();
         this.paddle = FindObjectOfType<Paddle>();
         this.bricks = FindObjectsOfType<Brick>();
@@ -128,6 +132,7 @@ public class GameManager : MonoBehaviour
     {
         gameOver = true;
         PlayGameOverSound();
+        condeScript.OnDefeatedEvent();
         GameObject canvas = GameObject.Find("Canvas");
         gameOverPanel = canvas.transform.Find("GameOverPanel").gameObject;
         gameOverPanel.SetActive(true);
@@ -164,6 +169,7 @@ public class GameManager : MonoBehaviour
             ResetPaddlegm();
             UpdateLivesText();
             PlayLostLifeSound();
+            condeScript.OnDamageEvent();
         }
         else
         {
@@ -185,6 +191,7 @@ public class GameManager : MonoBehaviour
             LevelCompletePanel.SetActive(true);
             levelWon = true;
             PlayWonLevelSound();
+            condeScript.OnAttackEvent();
         }
     }
 
@@ -250,6 +257,7 @@ public class GameManager : MonoBehaviour
         LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
         LevelCompletePanel.SetActive(true);
         UpdateHighscoreText();
+        condeScript.OnAttackEvent();
     }
 
     private void PlayGameOverSound()

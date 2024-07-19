@@ -1,0 +1,1493 @@
+fileFormatVersion: 2
+guid: aa7fbf94074dacf4ca2b9ad9b3eee421
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Conde lastimado_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7063
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a575aff1e1e7de740ab74dc1909b0811
+      internalID: -308499323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 7063
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1cc4a8c9ef092489b3ab3ac18b73de
+      internalID: -1783998974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_2
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 7063
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97c0bf7404d0fb499c9eecfb68fb2e3
+      internalID: 832225868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_3
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 7063
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad014ebc06ff3d449996da2637f64e1
+      internalID: -634076889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_4
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 7063
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056c09ed55024a642930a8cafd366f40
+      internalID: -1879180760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_5
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 7063
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49104b2606578544ad0e9104da1d38c
+      internalID: 1253385205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_6
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 7063
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edee291c8304ff341ac01d376f67cefc
+      internalID: -1207192723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_7
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 7063
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45584f8b1d615e4995d38006c1fd1c0
+      internalID: 865961329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6054
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d421dc8da367a1e48b59bf60deae4bdc
+      internalID: -29993042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_9
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 6054
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536b4d48be8f62e45a463ffc3cfc7cb1
+      internalID: -1081618936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_10
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 6054
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e395ab26885d241be56335c27da55b
+      internalID: 820960956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_11
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 6054
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0e20028102ffa46948177129f94eb8
+      internalID: 200154188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_12
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 6054
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6773d121ab84d43b1cb10c09e504ff
+      internalID: -2127494649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_13
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 6054
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32384dcf762515f4ea7db8fa725c6c90
+      internalID: 1142692241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_14
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 6054
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702206dadd7ee6345bd67439f7b31edc
+      internalID: -408804032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_15
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 6054
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b23b2842d887b41a24fc5d177299b7
+      internalID: 1991666912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5045
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b660fbb8ff74245a973c1698ebebb2
+      internalID: 1230205180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_17
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 5045
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6377a7a93903124b9ff2f45809413c3
+      internalID: 1453924752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_18
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 5045
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec10d94563a0d74eb426b88c4adf665
+      internalID: 328512824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_19
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 5045
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624f791c2c8f5bd448ee401fefec3825
+      internalID: 920045478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_20
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 5045
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edc159d49b92b948a44f7f1bc3e2672
+      internalID: -2010494867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_21
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 5045
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d99dd3828a234446a8d767239a72af7
+      internalID: -497320687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_22
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 5045
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a715154e9bacde41bdaa86a67e46d34
+      internalID: 1543825490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_23
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 5045
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62217e3b2bc367b4080dae6c8da27ff5
+      internalID: -1215477532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4036
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed3c7554821e724fae060f2286f76b8
+      internalID: -93311887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_25
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 4036
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c11d8df339a75f4f9f3600faec087f8
+      internalID: -1979282993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_26
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 4036
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f395c544244989b40b43d01f913138f1
+      internalID: -381833168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_27
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 4036
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0712e7a53085d964fbfce5e779354d7d
+      internalID: 1214336415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_28
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 4036
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c0c119bced90f46948f7f151576c7f
+      internalID: 1072874811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_29
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 4036
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e17c9473d66e64aa46ef22ed6299ba
+      internalID: -1367799852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_30
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 4036
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17b7cb19d2d4fa49abe546c24e723a1
+      internalID: 893681274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_31
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 4036
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a28ebf24d766545a46c93a2f47c1ff
+      internalID: -1241940653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3027
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ea55fdae1af324b8d3cdabe677a6cf
+      internalID: -1847083160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_33
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 3027
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b33aa5ef4de1049a680cace4515f3a
+      internalID: -1516534383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_34
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 3027
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0211f2527cfeeee469c80592dd749385
+      internalID: 448102932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_35
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 3027
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68ca4ed203060347bf839d7dd9b527a
+      internalID: -26182661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_36
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 3027
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363f783d5395ee0448014dabf07d4444
+      internalID: -762767815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_37
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 3027
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cf9106d4752c0459a93b57d2da6908
+      internalID: -782071965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_38
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 3027
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4706ce69515019d4891f9fc0c672877f
+      internalID: -1666345971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_39
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 3027
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e24d63f75305640b3201f0f3db84b8
+      internalID: -1163243486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2018
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6574a5521a4be4340929cdbf3776dbb0
+      internalID: 1456291444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_41
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2018
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b7ea4ffa953bf47a5f145e11fc617f
+      internalID: -1577651949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_42
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 2018
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaf5a50d4d2e7748a500888f1e62aad
+      internalID: -2133695703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_43
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 2018
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb42471f95ab0944b361f5bb273b6a7
+      internalID: -957861773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_44
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 2018
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c096434faff2343882e969ecc70fb9
+      internalID: 2133941459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_45
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 2018
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0954d359bca374cac6365ac62fa490
+      internalID: 2012104178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_46
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 2018
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6429dc639c5b3ed4d9d76344ce7e6c18
+      internalID: -600289246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_47
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 2018
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12431bebf1f60d449b5eb5661615da53
+      internalID: 1449254518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1009
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41672a8e674f904c92e540f0ae8961a
+      internalID: -1635426560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_49
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1009
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd806362071d124486c9a65da5ca0d8
+      internalID: 1340095674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_50
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1009
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37ca9fb9063fa349812843c0ad0bdb0
+      internalID: -727752289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_51
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1009
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f4d03c775ddeb41a48c8595a56414a
+      internalID: 2108130144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_52
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1009
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eff22de7af11be40a836d87aae2408b
+      internalID: -932825528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_53
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 1009
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6054d003107100249aa5fc0b17ce091c
+      internalID: 1798650451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_54
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 1009
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a48464b80c2b9949a71f04dd9c88405
+      internalID: -1133251576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_55
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 1009
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a439d8097b4f8384a99710d5c0c87588
+      internalID: -544482461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee2e2801a43493478c167e6cdc5ccf0
+      internalID: 1527289993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_57
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 0
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f117e78bd83dd4ba15948e78bea42d
+      internalID: -360614524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_58
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 0
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb55e021ba5feb64f901af8163ad134b
+      internalID: 1642413218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_59
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 0
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491227e3682a3ed468bd3ec9ff6c18f9
+      internalID: 1470185235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_60
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 0
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286027eda93a0934fa22f57951ec6c9d
+      internalID: -1123511434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde lastimado_61
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 0
+        width: 612.625
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e176a8c1db5a84aad6fecbfca5cc84
+      internalID: -1161517557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Conde lastimado_0: -308499323
+      Conde lastimado_1: -1783998974
+      Conde lastimado_10: 820960956
+      Conde lastimado_11: 200154188
+      Conde lastimado_12: -2127494649
+      Conde lastimado_13: 1142692241
+      Conde lastimado_14: -408804032
+      Conde lastimado_15: 1991666912
+      Conde lastimado_16: 1230205180
+      Conde lastimado_17: 1453924752
+      Conde lastimado_18: 328512824
+      Conde lastimado_19: 920045478
+      Conde lastimado_2: 832225868
+      Conde lastimado_20: -2010494867
+      Conde lastimado_21: -497320687
+      Conde lastimado_22: 1543825490
+      Conde lastimado_23: -1215477532
+      Conde lastimado_24: -93311887
+      Conde lastimado_25: -1979282993
+      Conde lastimado_26: -381833168
+      Conde lastimado_27: 1214336415
+      Conde lastimado_28: 1072874811
+      Conde lastimado_29: -1367799852
+      Conde lastimado_3: -634076889
+      Conde lastimado_30: 893681274
+      Conde lastimado_31: -1241940653
+      Conde lastimado_32: -1847083160
+      Conde lastimado_33: -1516534383
+      Conde lastimado_34: 448102932
+      Conde lastimado_35: -26182661
+      Conde lastimado_36: -762767815
+      Conde lastimado_37: -782071965
+      Conde lastimado_38: -1666345971
+      Conde lastimado_39: -1163243486
+      Conde lastimado_4: -1879180760
+      Conde lastimado_40: 1456291444
+      Conde lastimado_41: -1577651949
+      Conde lastimado_42: -2133695703
+      Conde lastimado_43: -957861773
+      Conde lastimado_44: 2133941459
+      Conde lastimado_45: 2012104178
+      Conde lastimado_46: -600289246
+      Conde lastimado_47: 1449254518
+      Conde lastimado_48: -1635426560
+      Conde lastimado_49: 1340095674
+      Conde lastimado_5: 1253385205
+      Conde lastimado_50: -727752289
+      Conde lastimado_51: 2108130144
+      Conde lastimado_52: -932825528
+      Conde lastimado_53: 1798650451
+      Conde lastimado_54: -1133251576
+      Conde lastimado_55: -544482461
+      Conde lastimado_56: 1527289993
+      Conde lastimado_57: -360614524
+      Conde lastimado_58: 1642413218
+      Conde lastimado_59: 1470185235
+      Conde lastimado_6: -1207192723
+      Conde lastimado_60: -1123511434
+      Conde lastimado_61: -1161517557
+      Conde lastimado_62: -1865482664
+      Conde lastimado_63: -873976382
+      Conde lastimado_7: 865961329
+      Conde lastimado_8: -29993042
+      Conde lastimado_9: -1081618936
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

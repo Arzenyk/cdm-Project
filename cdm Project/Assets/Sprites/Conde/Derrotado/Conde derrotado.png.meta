@@ -1,0 +1,1451 @@
+fileFormatVersion: 2
+guid: 5e2707b2953f4894da09c87efa027244
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Conde derrotado_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6895
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377153c9ae3885143b5967526444bc54
+      internalID: 19245540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_1
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 6895
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c9e189e336c654d9dc2a6d54ab58ee
+      internalID: -960525717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_2
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 6895
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce64b374a027b5b4dbb90411df637722
+      internalID: -1837943398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_3
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 6895
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22deef62c8327e4ba96cac29ba212ab
+      internalID: 1039140227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_4
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 6895
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73617ea046e7274187f2c8ddc59b9f0
+      internalID: -1193106733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_5
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 6895
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db74b4c5f9ee9ab4e8a7cacb6177a340
+      internalID: -2133769898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_6
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 6895
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654631bc6bc2e54408a04b667000cda3
+      internalID: -710256209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_7
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 6895
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1772fc685f977764b9db5a64fa212c48
+      internalID: 2073048888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5910
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efc231e781551444bf2766af4e91dff
+      internalID: 1515402636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_9
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 5910
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a9d9037eff574439aa169b010f9b1e
+      internalID: -817016286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_10
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 5910
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bcb0d488b32f8478f023e8b9f98e2c
+      internalID: 1354982640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_11
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 5910
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018644ab6c0c5644c9a984f8b02c19b2
+      internalID: -1707211887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_12
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 5910
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09f010776e0db044b45728fc5c28a5b
+      internalID: -651208627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_13
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 5910
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51b7d76deed08b4a9c86206a33bca71
+      internalID: 1454743094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_14
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 5910
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45187302410faed4492496542ffa160f
+      internalID: 1326201414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_15
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 5910
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc4cd53e5cdfdb4691ad4f9ac2fa0ef
+      internalID: 1101764191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4925
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a8f217bde95964f9e625d272be61da
+      internalID: 1753350066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_17
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 4925
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfaddedb2116a049b7c3abda0d88727
+      internalID: 1507348620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_18
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 4925
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c9b66417583394e886858ca7038dc1
+      internalID: -866238192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_19
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 4925
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a8e8c7a0a639f4abb58b5d2ecdce22
+      internalID: 1205623053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_20
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 4925
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2388525c6e72a14b89fbc670a36c03c
+      internalID: -1930414081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_21
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 4925
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef5be657fa8b134386db3c1d2f2c5c1
+      internalID: 565818673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_22
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 4925
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50024eb474151f54db82ad5315e05497
+      internalID: 108027142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_23
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 4925
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9f9ebe14d5b4f498bbd34d0ad0c3a1
+      internalID: -1310562955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3940
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e4e6829a4dd5c4992ea65d16023f52
+      internalID: 29545757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_25
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 3940
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5137a8d8c447a47bb5d7a152d3b1b4
+      internalID: 1562700667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_26
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 3940
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7b106a1b7d34642b4d131b03a37e4f
+      internalID: 2144059154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_27
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 3940
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263c483cab93eb540ae02dff1158fb83
+      internalID: 1564479089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_28
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 3940
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cf911f4d4d1b741b3d4ebb8a46ba6b
+      internalID: -619079513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_29
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 3940
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace409cb44ad3fb4e9028d1256df36f3
+      internalID: 1867033077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_30
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 3940
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604282d9aaa51bc46b83bcb52f625ee4
+      internalID: 81186376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_31
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 3940
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4732327f4792bf6488858702e842f895
+      internalID: -1633722250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2955
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10838dd12feb740498a43b26490dac5e
+      internalID: -628474202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_33
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 2955
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a48331eaa98564491e0429bad98562
+      internalID: 1400900787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_34
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 2955
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fa33575ff249a47a0cf74bb7ae95b1
+      internalID: 750327126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_35
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2955
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5952bc25e42e1f24cb8deb6cde37a8e3
+      internalID: 528255054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_36
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 2955
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f1cce23f5fd6341b79c0440f2fb5c5
+      internalID: -203488628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_37
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 2955
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4652f7c229e50f42b6d79a1ad98d3b4
+      internalID: -597625308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_38
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 2955
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed62076ee64eb84d95a852dc5ecb67f
+      internalID: 1583331750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_39
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 2955
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e9273d5ec4fc540926908187f47022
+      internalID: 237885933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1970
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bacd6e853bef845b03b3a76f2c69ed
+      internalID: -2011778991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_41
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1970
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d96e987ab9f8b4194ebd5069408b8d
+      internalID: 1040539745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_42
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1970
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422ef4b177cbcb84fa67e3cf1c9d3b8f
+      internalID: -2071821943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_43
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1970
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dab87d5f0b98ab4db074dcb9dfd927b
+      internalID: -1216773233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_44
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1970
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54b6d738bd7d01449845467bbe14538
+      internalID: -287760143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_45
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 1970
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b7e22c0ba71ff47aac35e90b3601c7
+      internalID: 7744282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_46
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 1970
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b328e1e203252764dad84374fc5e0837
+      internalID: 1619540633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_47
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 1970
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5c699d090da6142adaddfc2f278383
+      internalID: -1827958175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 985
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45035ed5709d7944888fafd7809fe016
+      internalID: -160679125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_49
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 985
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2d8da52a9ec414e8eedaebd7ae1409
+      internalID: -2074711704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_50
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 985
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d7ef231cb1ac04eadbe84a3caf2e65
+      internalID: 389540911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_51
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 985
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e0b9b4633e22c459a29855554b36d6
+      internalID: -132856165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_52
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 985
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2183a4d4e918c7e499d1b12f0e9e820e
+      internalID: -2081208263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_53
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 985
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addf8a8146621214ea4a24c9469a8a16
+      internalID: 684855924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_54
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 985
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6e9c6e56da5684d9bef98e9a7e3428
+      internalID: -1132194495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_55
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 985
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c791679697c062445a78a0a3faac961c
+      internalID: -1681330389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df566f06549c81e40b8cdc60e242ad64
+      internalID: -988211198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_57
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e836873ebdde15646b8f7270d112f5cb
+      internalID: 111721390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_58
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 0
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64f0a1e5e6d8a440baea94e449a9637
+      internalID: -1471218462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde derrotado_59
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 0
+        width: 504.625
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97323b763b2b284d9ee8b580096d144
+      internalID: 1735409091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Conde derrotado_0: 19245540
+      Conde derrotado_1: -960525717
+      Conde derrotado_10: 1354982640
+      Conde derrotado_11: -1707211887
+      Conde derrotado_12: -651208627
+      Conde derrotado_13: 1454743094
+      Conde derrotado_14: 1326201414
+      Conde derrotado_15: 1101764191
+      Conde derrotado_16: 1753350066
+      Conde derrotado_17: 1507348620
+      Conde derrotado_18: -866238192
+      Conde derrotado_19: 1205623053
+      Conde derrotado_2: -1837943398
+      Conde derrotado_20: -1930414081
+      Conde derrotado_21: 565818673
+      Conde derrotado_22: 108027142
+      Conde derrotado_23: -1310562955
+      Conde derrotado_24: 29545757
+      Conde derrotado_25: 1562700667
+      Conde derrotado_26: 2144059154
+      Conde derrotado_27: 1564479089
+      Conde derrotado_28: -619079513
+      Conde derrotado_29: 1867033077
+      Conde derrotado_3: 1039140227
+      Conde derrotado_30: 81186376
+      Conde derrotado_31: -1633722250
+      Conde derrotado_32: -628474202
+      Conde derrotado_33: 1400900787
+      Conde derrotado_34: 750327126
+      Conde derrotado_35: 528255054
+      Conde derrotado_36: -203488628
+      Conde derrotado_37: -597625308
+      Conde derrotado_38: 1583331750
+      Conde derrotado_39: 237885933
+      Conde derrotado_4: -1193106733
+      Conde derrotado_40: -2011778991
+      Conde derrotado_41: 1040539745
+      Conde derrotado_42: -2071821943
+      Conde derrotado_43: -1216773233
+      Conde derrotado_44: -287760143
+      Conde derrotado_45: 7744282
+      Conde derrotado_46: 1619540633
+      Conde derrotado_47: -1827958175
+      Conde derrotado_48: -160679125
+      Conde derrotado_49: -2074711704
+      Conde derrotado_5: -2133769898
+      Conde derrotado_50: 389540911
+      Conde derrotado_51: -132856165
+      Conde derrotado_52: -2081208263
+      Conde derrotado_53: 684855924
+      Conde derrotado_54: -1132194495
+      Conde derrotado_55: -1681330389
+      Conde derrotado_56: -988211198
+      Conde derrotado_57: 111721390
+      Conde derrotado_58: -1471218462
+      Conde derrotado_59: 1735409091
+      Conde derrotado_6: -710256209
+      Conde derrotado_60: -1144452064
+      Conde derrotado_61: 1059508231
+      Conde derrotado_62: -1076623115
+      Conde derrotado_63: 1857258122
+      Conde derrotado_7: 2073048888
+      Conde derrotado_8: 1515402636
+      Conde derrotado_9: -817016286
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

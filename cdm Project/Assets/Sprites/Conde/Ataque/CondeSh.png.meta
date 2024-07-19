@@ -1,0 +1,1711 @@
+fileFormatVersion: 2
+guid: dabae5cb285d7914984930da47acf862
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CondeSh_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 7082
+        width: 408
+        height: 1014
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e466400b2448c44834e0aa340682d3
+      internalID: 277457584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 7082
+        width: 407
+        height: 1014
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483dfae9b1151fd4eb5d6ba17d76eca7
+      internalID: 101528942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_2
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 7082
+        width: 407
+        height: 1014
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef81177838ae063429807c0d1bbdd9ef
+      internalID: 1705831846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_3
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 7082
+        width: 433
+        height: 1014
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcd140edd23d3144a8296cbaef82df1
+      internalID: 100023494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_4
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 7082
+        width: 431
+        height: 1014
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8472051df3106bc4893f669fb516bcd3
+      internalID: -1570318644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_5
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 7082
+        width: 423
+        height: 1014
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39871686f7e2a8341a509e564df8394b
+      internalID: 445108449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_6
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 7082
+        width: 423
+        height: 1014
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924b012ac74787d40879391983a02de4
+      internalID: -2102822039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_7
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 7082
+        width: 423
+        height: 1014
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b081d054ad1350946bb9747851161829
+      internalID: 1953360430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_8
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 7082
+        width: 435
+        height: 1014
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776dac3de62b4af428aa886f15ef5308
+      internalID: -1524724842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 6070
+        width: 439
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18644d707758184ca80593ae625f6a1
+      internalID: -58690367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6070
+        width: 439
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395a285b037dc804bb00e7ac4bbfd824
+      internalID: 351181588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_11
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 6070
+        width: 435
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3405e2b0e88b5046930b2ffe8537c79
+      internalID: 106468588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_12
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 6077
+        width: 431
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad776c06290c3c4ab0cdb3c707b209b
+      internalID: -9135636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_13
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 6068
+        width: 435
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96036018055566a43b321116666c9a8b
+      internalID: 1807974188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_14
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 6068
+        width: 431
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521325c2d769e9442b23b23e3ad28954
+      internalID: 11784421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_15
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 6077
+        width: 431
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae32b3a87cd8174b876d110b8111331
+      internalID: 773923700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_16
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 6068
+        width: 435
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffca39bd0d2f4ce43a8ce3f5d21e55ca
+      internalID: 1925897529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_17
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 6068
+        width: 431
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d09cd2c15c530746bc5f87a81e74c81
+      internalID: -1435660422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 5065
+        width: 431
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fae48739158c542b85cd730fccae49
+      internalID: -899608288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_19
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 5056
+        width: 435
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0eeb36aad84164a9d643ed2638a00f
+      internalID: -310854355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_20
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 5058
+        width: 459
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a07db4e0ab5f0a47839eb265fa96d7c
+      internalID: 1691048185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_21
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 5067
+        width: 454
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2fdc8d91f9c6f428c0c8ba38422307
+      internalID: -1064554318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_22
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 5058
+        width: 459
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b468d9880c9f5674d9a8f2ea05bc0aa2
+      internalID: 459416726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_23
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 5058
+        width: 459
+        height: 1002
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feac70fffd9211b4e92b5e6dfa7415a6
+      internalID: 2106626821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_24
+      rect:
+        serializedVersion: 2
+        x: 2949
+        y: 4033
+        width: 430
+        height: 1020
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38ca49393f3288429e05553c6142a62
+      internalID: -2101120964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_25
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 4042
+        width: 439
+        height: 1016
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac2c059bc6b7fd4a93636a6416acfeb
+      internalID: -643241986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_26
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 5067
+        width: 431
+        height: 1004
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcd7990089b3344b84c12f832c3ea92
+      internalID: -1749679632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 4055
+        width: 431
+        height: 1004
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7212e98fb0034ec488aca0811786a8c7
+      internalID: -2124085591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_28
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 4042
+        width: 427
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3600eb1029f554b8a0de05692ea833
+      internalID: -77622153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_29
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 4042
+        width: 427
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944a364989292cc4b8508a982891452b
+      internalID: -542216360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_30
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 4046
+        width: 423
+        height: 988
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ff1bdca9b75924f8d8a383a7cddf1e
+      internalID: 1285046176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_31
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 4046
+        width: 427
+        height: 1004
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6405716454a28a419fb4db5be2fa4a6
+      internalID: 1500273021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_32
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 4046
+        width: 423
+        height: 1004
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91459c4b0db7f0b41b95e6ab51170059
+      internalID: 1680110773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_33
+      rect:
+        serializedVersion: 2
+        x: 3916
+        y: 4046
+        width: 427
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51af91feb76393e45a7acfaf5e1be0b4
+      internalID: -501234946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_34
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3034
+        width: 427
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6500a5616ee8e4aa96dcdab666ced3
+      internalID: -875728620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_35
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3034
+        width: 427
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f44bf212a279df4bab08720aeeba848
+      internalID: 1718084273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_36
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 3043
+        width: 427
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919b543c43215024f9c24dcb940bf786
+      internalID: 1512366835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_37
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 3044
+        width: 427
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba956046133b19499b45fdcda47635b
+      internalID: -1741810379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_38
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 3034
+        width: 471
+        height: 1004
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb06104bc0f6e0249b0d8bbcda1ac460
+      internalID: 605407791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_39
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 3034
+        width: 466
+        height: 1004
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63670d30489241d44b17ba5d86d2db2e
+      internalID: -2052111898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_40
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 3030
+        width: 439
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dcbeee26d9afd43ad08dd5f1ac72a5
+      internalID: -85281884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_41
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 3030
+        width: 439
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a403f1a8d8d803f49bc60a0173fb9637
+      internalID: -9524795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_42
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 3034
+        width: 443
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1aa89769ae96f049a1a77689acb34f0
+      internalID: 1861404738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_43
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2022
+        width: 447
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed8ec802f408f14a8e2a0626f0221bd
+      internalID: -2006146280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_44
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2032
+        width: 455
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968ead9e3e85e74498bc29485f3211d5
+      internalID: -1232580418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_45
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 2032
+        width: 450
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd318d3fe283184ab71b0ddec0dbacc
+      internalID: 998206984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_46
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 2028
+        width: 439
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771ce6af9882f3449ba487dceddd104b
+      internalID: 1367283481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_47
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 2018
+        width: 439
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8847cef49f51423428b2c5d1b0fa30ed
+      internalID: 23409880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_48
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 2022
+        width: 443
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5992134c62b0cb1488efaeb0236f5a8b
+      internalID: -1212726699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_49
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 2022
+        width: 447
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2ebb3973f329b4aa899f73f9d338de
+      internalID: 1183452699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_50
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 2032
+        width: 455
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d182d5e45bd81c44fb8c6ec9a86a43ae
+      internalID: 500606221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_51
+      rect:
+        serializedVersion: 2
+        x: 3893
+        y: 2032
+        width: 450
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57b080edffe5554bbab9eadac81d75c
+      internalID: -475954574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_52
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1006
+        width: 439
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f837a226910b5e4c9d3c6f699f9c95e
+      internalID: 198754269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1006
+        width: 439
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1760ceb3127241f48ac8e70edb4249ae
+      internalID: 480544841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_54
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1010
+        width: 443
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3f77cddbbe8f5438ebe92237f2fd9b
+      internalID: -1664098247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_55
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1010
+        width: 447
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1254a8a496e27e418ce6dc4bbd8901b
+      internalID: 16873933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_56
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1020
+        width: 455
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62de521e51c87bf4e84d7e7541e3d905
+      internalID: 645595241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_57
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1010
+        width: 450
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642523545336a6141a0d16e1a27a700d
+      internalID: -255210260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_58
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1006
+        width: 439
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82d8a22539d63a4db9b6a571289e931
+      internalID: -1166270935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_59
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 1006
+        width: 439
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c53f41bb49cb04d909d928f7d47a35
+      internalID: -131399950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_60
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1010
+        width: 443
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ee93bbec5caf84785b3ee31e133791
+      internalID: -2050956627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_61
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 447
+        height: 994
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89077200ba4368448bad0ed0999c25e
+      internalID: 650729821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_62
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 10
+        width: 455
+        height: 998
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2e26c91359c334b8dcf92c052fdc22
+      internalID: -126510561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_63
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 0
+        width: 450
+        height: 998
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e46c14d873559a46a52c03aee4a16c3
+      internalID: 472590838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_64
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 0
+        width: 439
+        height: 994
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3597e202550d242888eafe56d7e8bf
+      internalID: 959578645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_65
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 0
+        width: 439
+        height: 994
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9913fcf045e292468275a0a3fa60e6c
+      internalID: -1670538751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_66
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 10
+        width: 443
+        height: 994
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0d7fa7c4eb1ee4faa26b813860bda8
+      internalID: 722660081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_67
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 0
+        width: 447
+        height: 994
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dfb6d9d5c04f649a88b0920953d9a1
+      internalID: -527879563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_68
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 10
+        width: 455
+        height: 998
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542998bf13d16a8458388d82ff65f874
+      internalID: -2119602674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_69
+      rect:
+        serializedVersion: 2
+        x: 3893
+        y: 10
+        width: 450
+        height: 998
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffbd190006710841bae122e9e63c312
+      internalID: -582884700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_70
+      rect:
+        serializedVersion: 2
+        x: 2946
+        y: 5064
+        width: 432
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7125d693bbd198f4f9e7a7bb3af2dbc1
+      internalID: -1973291232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CondeSh_71
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 5063
+        width: 434
+        height: 998
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fa7120d9993f34bad37daaae3ece6a
+      internalID: -2120138791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CondeSh_0: 277457584
+      CondeSh_1: 101528942
+      CondeSh_10: 351181588
+      CondeSh_11: 106468588
+      CondeSh_12: -9135636
+      CondeSh_13: 1807974188
+      CondeSh_14: 11784421
+      CondeSh_15: 773923700
+      CondeSh_16: 1925897529
+      CondeSh_17: -1435660422
+      CondeSh_18: -899608288
+      CondeSh_19: -310854355
+      CondeSh_2: 1705831846
+      CondeSh_20: 1691048185
+      CondeSh_21: -1064554318
+      CondeSh_22: 459416726
+      CondeSh_23: 2106626821
+      CondeSh_24: -2101120964
+      CondeSh_25: -643241986
+      CondeSh_26: -1749679632
+      CondeSh_27: -2124085591
+      CondeSh_28: -77622153
+      CondeSh_29: -542216360
+      CondeSh_3: 100023494
+      CondeSh_30: 1285046176
+      CondeSh_31: 1500273021
+      CondeSh_32: 1680110773
+      CondeSh_33: -501234946
+      CondeSh_34: -875728620
+      CondeSh_35: 1718084273
+      CondeSh_36: 1512366835
+      CondeSh_37: -1741810379
+      CondeSh_38: 605407791
+      CondeSh_39: -2052111898
+      CondeSh_4: -1570318644
+      CondeSh_40: -85281884
+      CondeSh_41: -9524795
+      CondeSh_42: 1861404738
+      CondeSh_43: -2006146280
+      CondeSh_44: -1232580418
+      CondeSh_45: 998206984
+      CondeSh_46: 1367283481
+      CondeSh_47: 23409880
+      CondeSh_48: -1212726699
+      CondeSh_49: 1183452699
+      CondeSh_5: 445108449
+      CondeSh_50: 500606221
+      CondeSh_51: -475954574
+      CondeSh_52: 198754269
+      CondeSh_53: 480544841
+      CondeSh_54: -1664098247
+      CondeSh_55: 16873933
+      CondeSh_56: 645595241
+      CondeSh_57: -255210260
+      CondeSh_58: -1166270935
+      CondeSh_59: -131399950
+      CondeSh_6: -2102822039
+      CondeSh_60: -2050956627
+      CondeSh_61: 650729821
+      CondeSh_62: -126510561
+      CondeSh_63: 472590838
+      CondeSh_64: 959578645
+      CondeSh_65: -1670538751
+      CondeSh_66: 722660081
+      CondeSh_67: -527879563
+      CondeSh_68: -2119602674
+      CondeSh_69: -582884700
+      CondeSh_7: 1953360430
+      CondeSh_70: -1973291232
+      CondeSh_71: -2120138791
+      CondeSh_8: -1524724842
+      CondeSh_9: -58690367
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

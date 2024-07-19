@@ -1,0 +1,1184 @@
+fileFormatVersion: 2
+guid: c0cec3806077f7040a21a1a4faa07df2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Conde Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3318
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d690d0da3c34a44db9888d9c9e03cd0
+      internalID: 1139129112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3318
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2da4cca0678fc14ca9e438dc799c296
+      internalID: -14210529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_2
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 3318
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c905e4781d4c94893391f7769f2580
+      internalID: -1331648833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 3318
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0d217155c9fd34a9a619f07721686f
+      internalID: -2140753640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 3318
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16e169c2d2d4cb44ac9425eafb01e53
+      internalID: 1741137050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_5
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 3318
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb177dbaa24715b4b8358a2b223687bb
+      internalID: -195073068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_6
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 3318
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7c35eea6017644fad9dac67df3092a
+      internalID: 1460203514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2765
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb78396afea66f41b2094670c59bd29
+      internalID: 329377381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_8
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2765
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcff6f1213a1f64f9832615b6efa688
+      internalID: 1928644358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_9
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2765
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293112bb1aa4dfe429b84f6db1d60abb
+      internalID: 1329786658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2765
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a971d92c86ce3e46a59538913e3d9d9
+      internalID: -1043264520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 2765
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f46fef36afcebd4b9c63815c4ca888b
+      internalID: 1818964053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_12
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 2765
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24bbeff2d8728742b20040498259481
+      internalID: -78137379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2765
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645d452046f230242af27d48079229dc
+      internalID: 2100726576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2212
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c1df68f2ae645429a41b23e4926433
+      internalID: -1906113631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2212
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9e9e51678fef74699b732fa9a207cc
+      internalID: 217057310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_16
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2212
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c895e4132022a4885aeb3db09661df
+      internalID: 718549813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2212
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c4e8bb04752e34bba8d1af4c74700b
+      internalID: 1357989572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_18
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 2212
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4627e8c56953c15409d54b0fe046a5e0
+      internalID: 274048908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_19
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 2212
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ffb04d74af52a45bb24122874eccd2
+      internalID: -1536029833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_20
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2212
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f76e6da90695d240be2dee3d84d5896
+      internalID: 463652497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1659
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad53e8a446724974197e39921c2c8e92
+      internalID: 800585698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_22
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1659
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c08c37475e1d847a4e3b4501ac9a72
+      internalID: 1322655967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_23
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1659
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b00b5d0539eb241a72618773b5b296
+      internalID: 365454077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_24
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1659
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd63f36fdae29d44ba79982193ac8186
+      internalID: -427509040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_25
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1659
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079b82de0ebe2134ab79a61872a6f52c
+      internalID: 1881747333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_26
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 1659
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c1ede116907b44ca396ec87d598b5c
+      internalID: -797954785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_27
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 1659
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26575a0f600480048ba27234d3e3f3ee
+      internalID: 611506649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1106
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4c42b2165553748a69ce15e1c8920f
+      internalID: 1980148119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_29
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1106
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0500a3263c1c7b42ba1e548eaf22451
+      internalID: -1632222461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_30
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1106
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9851ea5b67f0d1a499a78e878e9545f0
+      internalID: 2056623566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_31
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1106
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a3fe65ae0833d4db3622e1256ac0b8
+      internalID: 768161589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1106
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcaceb66b2c82b409dd2b30a7399874
+      internalID: 1464386139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 1106
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb70ed3980160b744a04f6c6568581bc
+      internalID: 961298182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_34
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 1106
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b7e3263b980ce4bab60add57d5d318
+      internalID: -401706333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 553
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cee82cc933aec4aa52f457bba0dce2
+      internalID: -955830246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_36
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 553
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f182b7ca8b0d24c864725c174854a1
+      internalID: -1969577840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_37
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 553
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ca958f6af14c64a9202389535c0e07
+      internalID: 772099063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_38
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 553
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b504ddc66ccf7c644b0bcd5149fdb582
+      internalID: -1599898775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_39
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 553
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f295a870f6ce8f44bad2d0a626b46d32
+      internalID: 1754726825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_40
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 553
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b21b9c363ade284b9e10db049c79ba5
+      internalID: 103469352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_41
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 553
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e09cd582566d541adf0c7d6000c508
+      internalID: 1939890622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e4c0275b60e6a4ab1873e365f814be
+      internalID: -949033636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e26ad1c29ac6e42baf8e52fa8fd427
+      internalID: 2092596090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_44
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 0
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c44673f0edc04944ac3327911265d83
+      internalID: -940928104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_45
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 0
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5811e95480fce2749af251af3e93a1a1
+      internalID: 774384143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_46
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 0
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cffb4452fba4d84785496d5eccef40e
+      internalID: -523210774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conde Idle_47
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 0
+        width: 469
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136cb0727e2e34545905710bd86f1214
+      internalID: -1322235626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Conde Idle_0: 1139129112
+      Conde Idle_1: -14210529
+      Conde Idle_10: -1043264520
+      Conde Idle_11: 1818964053
+      Conde Idle_12: -78137379
+      Conde Idle_13: 2100726576
+      Conde Idle_14: -1906113631
+      Conde Idle_15: 217057310
+      Conde Idle_16: 718549813
+      Conde Idle_17: 1357989572
+      Conde Idle_18: 274048908
+      Conde Idle_19: -1536029833
+      Conde Idle_2: -1331648833
+      Conde Idle_20: 463652497
+      Conde Idle_21: 800585698
+      Conde Idle_22: 1322655967
+      Conde Idle_23: 365454077
+      Conde Idle_24: -427509040
+      Conde Idle_25: 1881747333
+      Conde Idle_26: -797954785
+      Conde Idle_27: 611506649
+      Conde Idle_28: 1980148119
+      Conde Idle_29: -1632222461
+      Conde Idle_3: -2140753640
+      Conde Idle_30: 2056623566
+      Conde Idle_31: 768161589
+      Conde Idle_32: 1464386139
+      Conde Idle_33: 961298182
+      Conde Idle_34: -401706333
+      Conde Idle_35: -955830246
+      Conde Idle_36: -1969577840
+      Conde Idle_37: 772099063
+      Conde Idle_38: -1599898775
+      Conde Idle_39: 1754726825
+      Conde Idle_4: 1741137050
+      Conde Idle_40: 103469352
+      Conde Idle_41: 1939890622
+      Conde Idle_42: -949033636
+      Conde Idle_43: 2092596090
+      Conde Idle_44: -940928104
+      Conde Idle_45: 774384143
+      Conde Idle_46: -523210774
+      Conde Idle_47: -1322235626
+      Conde Idle_48: -1482306504
+      Conde Idle_5: -195073068
+      Conde Idle_6: 1460203514
+      Conde Idle_7: 329377381
+      Conde Idle_8: 1928644358
+      Conde Idle_9: 1329786658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
