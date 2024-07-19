@@ -27,15 +27,17 @@ public class GameManager : MonoBehaviour
     public bool gameOver = false;
     public bool levelWon = false;
     public bool mutedGame = false;
+    public bool inMenu = false;
 
     private GameObject gameOverPanel;
     private GameObject HighScoreInPanel;
     private GameObject LevelCompletePanel;
 
-    public AudioClip cancion;
+    public AudioClip Cancion;
     public AudioClip gameOverSound;
     public AudioClip lostLifeSound;
     public AudioClip wonLevelSound;
+    public AudioClip Cancion1;
 
     private AudioSource audioSource;
     private void Awake()
@@ -55,10 +57,11 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        condeScript = GameObject.FindGameObjectWithTag("Conde").GetComponent<CondeScript>();
-        aldeanoScript = GameObject.FindGameObjectWithTag("Aldeano").GetComponent<AldeanoScript>();
-        colmillosScript = GameObject.FindGameObjectWithTag("Colmillos").GetComponent<ColmillosScript>();
+        audioSource = GameObject.Find("GameManager").GetComponent<AudioSource>();
+        if (Cancion1 == null)
+        {
+            Debug.LogError("GameOverSound AudioClip is not assigned.");
+        }
     }
     public void NewGame()
     {
@@ -73,18 +76,29 @@ public class GameManager : MonoBehaviour
     {
         this.level = level;
 
-        if (level > 10)
+        if (level < 1)
         {
-            SceneManager.LoadScene("WinScreen");
+            inMenu = true;
+            audioSource.clip = Cancion1;
+            audioSource.Stop();
         }
         else
         {
+            inMenu = false;
             SceneManager.LoadScene("level" + level);
+            condeScript = GameObject.FindGameObjectWithTag("Conde").GetComponent<CondeScript>();
+            aldeanoScript = GameObject.FindGameObjectWithTag("Aldeano").GetComponent<AldeanoScript>();
+            colmillosScript = GameObject.FindGameObjectWithTag("Colmillos").GetComponent<ColmillosScript>();
         }
     }
 
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
+        if (this.level < 1)
+        {
+            inMenu = true;
+            InMenu();
+        }
         condeScript = FindObjectOfType<CondeScript>();
         aldeanoScript = FindObjectOfType<AldeanoScript>();
         colmillosScript = FindObjectOfType<ColmillosScript>();
@@ -108,9 +122,13 @@ public class GameManager : MonoBehaviour
         UpdateLevelText();
         UpdateHighscoreText();
 
-        if (!mutedGame)
+        if (mutedGame == false)
         {
-            playCancionSound();
+            PlayCancionSound();
+        }
+        else
+        {
+            StopCancionSound();
         }
     }
 
@@ -297,7 +315,7 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(audioSource.clip.length);
 
-        playCancionSound();
+        PlayCancionSound();
     }
 
     private void PlayWonLevelSound()
@@ -307,17 +325,40 @@ public class GameManager : MonoBehaviour
         audioSource.Play();
     }
 
-    private void playCancionSound()
+    private void PlayCancionSound()
     {
-        audioSource.clip = cancion;
-        audioSource.loop = true;
-        audioSource.Play();
+        this.audioSource = GameObject.Find("GameManager").GetComponent<AudioSource>();
+        this.audioSource.clip = Cancion1;
+        if (Cancion1 == null)
+        {
+            Debug.Log("cancion1 null");
+        }
+        else
+        {
+            audioSource.loop = true;
+            audioSource.Play();
+        }
     }
 
     public void StopCancionSound()
     {
-        audioSource.clip = cancion;
-        audioSource.Pause();
+        this.audioSource = GameObject.Find("GameManager").GetComponent<AudioSource>();
+        audioSource.clip = Cancion1;
+        audioSource.volume = 0;
         mutedGame = true;
+    }
+
+    public void InMenu()
+    {
+        if (inMenu)
+        {
+            StopCancionSound();
+            Debug.Log("did it");
+        }
+        else
+        {
+            PlayCancionSound();
+            Debug.Log("did not");
+        }
     }
 }

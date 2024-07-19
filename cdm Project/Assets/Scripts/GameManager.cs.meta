@@ -3,7 +3,12 @@ guid: 5e5f7db71b3bb954ba3ccb524841ae5f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Cancion: {fileID: 8300000, guid: c549cc0b816718c4ba6bccbb976fd7e4, type: 3}
+  - gameOverSound: {fileID: 8300000, guid: 8f9916633895b284b858fb07ffce23b1, type: 3}
+  - lostLifeSound: {fileID: 8300000, guid: 4569f7a07ef48a945a0a7758fdabe3f2, type: 3}
+  - wonLevelSound: {fileID: 8300000, guid: 4faa71461f1342f46989a6f6f8661e60, type: 3}
+  - Cancion1: {fileID: 8300000, guid: ff938eb6176381841bc8be4a9f3a9519, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
