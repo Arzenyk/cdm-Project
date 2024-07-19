@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c0cec3806077f7040a21a1a4faa07df2
+guid: 8fdc413bff0e7bc4b85167564ffebf56
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Conde Idle_0
+      name: Enemigo ataque_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3312
-        width: 469
-        height: 559
+        x: 8
+        y: 3712
+        width: 398
+        height: 579
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d690d0da3c34a44db9888d9c9e03cd0
-      internalID: 1139129112
+      spriteID: 40a29bf1c69c232449c628dc98c2a5a4
+      internalID: 326442613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_1
+      name: Enemigo ataque_1
       rect:
         serializedVersion: 2
-        x: 469
-        y: 3318
-        width: 469
-        height: 553
+        x: 489
+        y: 3711
+        width: 403
+        height: 580
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2da4cca0678fc14ca9e438dc799c296
-      internalID: -14210529
+      spriteID: 90b0712b1641508488f4f89514e7f86a
+      internalID: -917286179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_2
+      name: Enemigo ataque_2
       rect:
         serializedVersion: 2
-        x: 938
-        y: 3318
-        width: 469
-        height: 553
+        x: 972
+        y: 3710
+        width: 406
+        height: 581
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30c905e4781d4c94893391f7769f2580
-      internalID: -1331648833
+      spriteID: cb448f8ad24ee6246aca163b73edf305
+      internalID: -1102904520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_3
+      name: Enemigo ataque_3
       rect:
         serializedVersion: 2
-        x: 1407
-        y: 3318
-        width: 469
-        height: 553
+        x: 1456
+        y: 3710
+        width: 408
+        height: 581
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a0d217155c9fd34a9a619f07721686f
-      internalID: -2140753640
+      spriteID: 9c7e703f5defa14459d8b1999fe87eee
+      internalID: -2100903800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_4
+      name: Enemigo ataque_4
       rect:
         serializedVersion: 2
-        x: 1876
-        y: 3318
-        width: 469
-        height: 553
+        x: 1942
+        y: 3710
+        width: 407
+        height: 581
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e16e169c2d2d4cb44ac9425eafb01e53
-      internalID: 1741137050
+      spriteID: cc87b47078ea1d445bd2c75f77932abe
+      internalID: -1357615019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_5
+      name: Enemigo ataque_5
       rect:
         serializedVersion: 2
-        x: 2345
-        y: 3318
-        width: 469
-        height: 553
+        x: 2430
+        y: 3709
+        width: 405
+        height: 582
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb177dbaa24715b4b8358a2b223687bb
-      internalID: -195073068
+      spriteID: 2c6b9a23578cdf846af221a2adcc3daa
+      internalID: 2121896795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_6
+      name: Enemigo ataque_6
       rect:
         serializedVersion: 2
-        x: 2814
-        y: 3318
-        width: 469
-        height: 553
+        x: 2917
+        y: 3708
+        width: 404
+        height: 583
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd7c35eea6017644fad9dac67df3092a
-      internalID: 1460203514
+      spriteID: 3e70d5ec4c60d674f8f91ab2177bd249
+      internalID: 1203398841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_7
+      name: Enemigo ataque_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2765
-        width: 469
-        height: 553
+        x: 5
+        y: 3093
+        width: 401
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adb78396afea66f41b2094670c59bd29
-      internalID: 329377381
+      spriteID: c9900003dcdb64849b7dcfde3a558314
+      internalID: 1488745255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_8
+      name: Enemigo ataque_8
       rect:
         serializedVersion: 2
-        x: 469
-        y: 2765
-        width: 469
-        height: 545
+        x: 495
+        y: 3089
+        width: 397
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fcff6f1213a1f64f9832615b6efa688
-      internalID: 1928644358
+      spriteID: 6e18baaafee06354b9245e42d9c1a3df
+      internalID: -547550525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_9
+      name: Enemigo ataque_9
       rect:
         serializedVersion: 2
-        x: 938
-        y: 2765
-        width: 469
-        height: 544
+        x: 987
+        y: 3093
+        width: 391
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 293112bb1aa4dfe429b84f6db1d60abb
-      internalID: 1329786658
+      spriteID: 53dc179561a640f4cbc196ddee0fc821
+      internalID: -612678283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_10
+      name: Enemigo ataque_10
       rect:
         serializedVersion: 2
-        x: 1407
-        y: 2765
-        width: 469
-        height: 544
+        x: 1481
+        y: 3089
+        width: 383
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a971d92c86ce3e46a59538913e3d9d9
-      internalID: -1043264520
+      spriteID: 4d304c4ee37ec5849b980052824b38a5
+      internalID: -97665241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_11
+      name: Enemigo ataque_11
       rect:
         serializedVersion: 2
-        x: 1876
-        y: 2765
-        width: 469
-        height: 545
+        x: 1976
+        y: 3089
+        width: 373
+        height: 587
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f46fef36afcebd4b9c63815c4ca888b
-      internalID: 1818964053
+      spriteID: 7eb30a2ca2fd94e40ad0f444f737a8dc
+      internalID: -1401067994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_12
+      name: Enemigo ataque_12
       rect:
         serializedVersion: 2
-        x: 2345
-        y: 2765
-        width: 469
-        height: 548
+        x: 2470
+        y: 3089
+        width: 365
+        height: 590
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c24bbeff2d8728742b20040498259481
-      internalID: -78137379
+      spriteID: a37aed7872aef2d4db5bd96c20a583f9
+      internalID: -810797826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_13
+      name: Enemigo ataque_13
       rect:
         serializedVersion: 2
-        x: 2814
-        y: 2765
-        width: 469
-        height: 550
+        x: 2966
+        y: 3088
+        width: 355
+        height: 592
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,20 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 645d452046f230242af27d48079229dc
-      internalID: 2100726576
+      spriteID: a5604852c4b10d441ad0e08ef1553286
+      internalID: -336901084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_14
+      name: Enemigo ataque_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2212
-        width: 469
-        height: 547
+        x: 60
+        y: 2470
+        width: 346
+        height: 592
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c1df68f2ae645429a41b23e4926433
-      internalID: -1906113631
+      spriteID: 74a53c1c97c82eb4e9f238e30bfaa456
+      internalID: -1343674204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_15
+      name: Enemigo ataque_15
       rect:
         serializedVersion: 2
-        x: 469
-        y: 2212
-        width: 469
-        height: 546
+        x: 546
+        y: 2470
+        width: 346
+        height: 592
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,20 +439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce9e9e51678fef74699b732fa9a207cc
-      internalID: 217057310
+      spriteID: aebfb8d5c92b46941ad6200ec1f7276a
+      internalID: 1435584647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_16
+      name: Enemigo ataque_16
       rect:
         serializedVersion: 2
-        x: 938
-        y: 2212
-        width: 469
-        height: 549
+        x: 1028
+        y: 2473
+        width: 359
+        height: 609
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,20 +460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36c895e4132022a4885aeb3db09661df
-      internalID: 718549813
+      spriteID: 9b6611b0b71684140bcc40eacc320572
+      internalID: 1326958578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_17
+      name: Enemigo ataque_17
       rect:
         serializedVersion: 2
-        x: 1407
-        y: 2213
-        width: 469
-        height: 548
+        x: 1517
+        y: 2469
+        width: 356
+        height: 597
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38c4e8bb04752e34bba8d1af4c74700b
-      internalID: 1357989572
+      spriteID: 1342fa9b98f09e2418144c98ef667bd2
+      internalID: -719384481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_18
+      name: Enemigo ataque_18
       rect:
         serializedVersion: 2
-        x: 1876
-        y: 2212
-        width: 469
-        height: 550
+        x: 2001
+        y: 2467
+        width: 372
+        height: 591
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,20 +502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4627e8c56953c15409d54b0fe046a5e0
-      internalID: 274048908
+      spriteID: c4cf22c8dd5283b408c64beefd1aa743
+      internalID: -1436215050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_19
+      name: Enemigo ataque_19
       rect:
         serializedVersion: 2
-        x: 2346
-        y: 2212
-        width: 469
-        height: 550
+        x: 2478
+        y: 2470
+        width: 396
+        height: 597
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,20 +523,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57ffb04d74af52a45bb24122874eccd2
-      internalID: -1536029833
+      spriteID: fda960bf05eeaa94ea5545325644a954
+      internalID: -1707352816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_20
+      name: Enemigo ataque_20
       rect:
         serializedVersion: 2
-        x: 2814
-        y: 2212
-        width: 469
-        height: 552
+        x: 2975
+        y: 2470
+        width: 399
+        height: 601
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,20 +544,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f76e6da90695d240be2dee3d84d5896
-      internalID: 463652497
+      spriteID: c1626a64742a49842935e368f2d27187
+      internalID: 1649042870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_21
+      name: Enemigo ataque_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1659
-        width: 469
-        height: 551
+        x: 54
+        y: 1846
+        width: 416
+        height: 619
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,20 +565,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad53e8a446724974197e39921c2c8e92
-      internalID: 800585698
+      spriteID: 602034b20ccbcc241b99893957a4a0a5
+      internalID: -446888658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_22
+      name: Enemigo ataque_22
       rect:
         serializedVersion: 2
-        x: 469
-        y: 1659
-        width: 469
-        height: 551
+        x: 541
+        y: 1833
+        width: 426
+        height: 638
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,20 +586,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80c08c37475e1d847a4e3b4501ac9a72
-      internalID: 1322655967
+      spriteID: 3366c7d71f4523c4f94f8faa44e66a2b
+      internalID: 426908345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_23
+      name: Enemigo ataque_23
       rect:
         serializedVersion: 2
-        x: 938
-        y: 1659
-        width: 469
-        height: 550
+        x: 1031
+        y: 1848
+        width: 431
+        height: 624
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,20 +607,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8b00b5d0539eb241a72618773b5b296
-      internalID: 365454077
+      spriteID: 644e1368ad24a1b43a3e8217a63a0406
+      internalID: -1666794927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_24
+      name: Enemigo ataque_24
       rect:
         serializedVersion: 2
-        x: 1407
-        y: 1659
-        width: 469
-        height: 549
+        x: 1513
+        y: 1856
+        width: 403
+        height: 603
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,20 +628,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd63f36fdae29d44ba79982193ac8186
-      internalID: -427509040
+      spriteID: 1938ed9e06d3cf74ea3860ef50091c7a
+      internalID: 917508046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_25
+      name: Enemigo ataque_25
       rect:
         serializedVersion: 2
-        x: 1876
-        y: 1659
-        width: 469
-        height: 548
+        x: 2001
+        y: 1851
+        width: 369
+        height: 595
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,20 +649,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 079b82de0ebe2134ab79a61872a6f52c
-      internalID: 1881747333
+      spriteID: 0d3280ee7414a6a42ba9f7f571241e56
+      internalID: 1069527442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_26
+      name: Enemigo ataque_26
       rect:
         serializedVersion: 2
-        x: 2345
-        y: 1659
-        width: 469
-        height: 548
+        x: 2487
+        y: 1854
+        width: 353
+        height: 592
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,20 +670,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94c1ede116907b44ca396ec87d598b5c
-      internalID: -797954785
+      spriteID: 24c9f9ccc9eb1f6468169adcd840fe1a
+      internalID: -1295725467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_27
+      name: Enemigo ataque_27
       rect:
         serializedVersion: 2
-        x: 2814
-        y: 1659
-        width: 469
-        height: 547
+        x: 2956
+        y: 1851
+        width: 365
+        height: 592
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,20 +691,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26575a0f600480048ba27234d3e3f3ee
-      internalID: 611506649
+      spriteID: 7d7f60df9686a5a4e9a5a8b686920f6d
+      internalID: 272910556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_28
+      name: Enemigo ataque_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1106
-        width: 457
-        height: 549
+        x: 24
+        y: 1233
+        width: 382
+        height: 587
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,20 +712,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d4c42b2165553748a69ce15e1c8920f
-      internalID: 1980148119
+      spriteID: 36949e3bcd7126c4baba51555c6b74c1
+      internalID: 1414023905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_29
+      name: Enemigo ataque_29
       rect:
         serializedVersion: 2
-        x: 467
-        y: 1106
-        width: 461
-        height: 548
+        x: 493
+        y: 1233
+        width: 399
+        height: 587
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -733,20 +733,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0500a3263c1c7b42ba1e548eaf22451
-      internalID: -1632222461
+      spriteID: d9c3279b233f662468ef2895044aaa36
+      internalID: -1245255179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_30
+      name: Enemigo ataque_30
       rect:
         serializedVersion: 2
-        x: 937
-        y: 1106
-        width: 470
-        height: 548
+        x: 970
+        y: 1233
+        width: 408
+        height: 587
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,20 +754,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9851ea5b67f0d1a499a78e878e9545f0
-      internalID: 2056623566
+      spriteID: beb923e3fccaab54aa5ee9a92021a9e7
+      internalID: -1035524608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_31
+      name: Enemigo ataque_31
       rect:
         serializedVersion: 2
-        x: 1407
-        y: 1106
-        width: 469
-        height: 548
+        x: 1458
+        y: 1233
+        width: 406
+        height: 587
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,20 +775,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8a3fe65ae0833d4db3622e1256ac0b8
-      internalID: 768161589
+      spriteID: 25ff788edc9fba749a6387dfb5a8eea7
+      internalID: -1797176527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_32
+      name: Enemigo ataque_32
       rect:
         serializedVersion: 2
-        x: 1876
-        y: 1106
-        width: 469
-        height: 545
+        x: 1953
+        y: 1238
+        width: 396
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,20 +796,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfcaceb66b2c82b409dd2b30a7399874
-      internalID: 1464386139
+      spriteID: 6d9c0c0fde59a0a45a7e7ccc043e167e
+      internalID: 437685322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_33
+      name: Enemigo ataque_33
       rect:
         serializedVersion: 2
-        x: 2345
-        y: 1106
-        width: 469
-        height: 541
+        x: 2446
+        y: 1238
+        width: 389
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -817,20 +817,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb70ed3980160b744a04f6c6568581bc
-      internalID: 961298182
+      spriteID: f027eb7c1778fe848b76f4ba3d75e6dd
+      internalID: -471208359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_34
+      name: Enemigo ataque_34
       rect:
         serializedVersion: 2
-        x: 2814
-        y: 1106
-        width: 469
-        height: 540
+        x: 2939
+        y: 1238
+        width: 382
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,20 +838,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21b7e3263b980ce4bab60add57d5d318
-      internalID: -401706333
+      spriteID: aa96412bd750aac40a15b644d6979406
+      internalID: 91360314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_35
+      name: Enemigo ataque_35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 553
-        width: 469
-        height: 545
+        x: 33
+        y: 616
+        width: 373
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -859,20 +859,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37cee82cc933aec4aa52f457bba0dce2
-      internalID: -955830246
+      spriteID: d5edd0abdb11950488891773ce3424b9
+      internalID: 662016992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_36
+      name: Enemigo ataque_36
       rect:
         serializedVersion: 2
-        x: 471
-        y: 553
-        width: 459
-        height: 548
+        x: 529
+        y: 616
+        width: 363
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -880,20 +880,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56f182b7ca8b0d24c864725c174854a1
-      internalID: -1969577840
+      spriteID: 9a4550ac1097abf48b5e1d1e0fc83b74
+      internalID: 1131402876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_37
+      name: Enemigo ataque_37
       rect:
         serializedVersion: 2
-        x: 938
-        y: 553
-        width: 461
-        height: 548
+        x: 1021
+        y: 622
+        width: 357
+        height: 583
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -901,20 +901,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0ca958f6af14c64a9202389535c0e07
-      internalID: 772099063
+      spriteID: 7932809287b638d4082c9bc1e9a5c5ff
+      internalID: 441696213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_38
+      name: Enemigo ataque_38
       rect:
         serializedVersion: 2
-        x: 1404
-        y: 553
-        width: 463
-        height: 548
+        x: 1505
+        y: 618
+        width: 359
+        height: 583
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -922,20 +922,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b504ddc66ccf7c644b0bcd5149fdb582
-      internalID: -1599898775
+      spriteID: f393b1a4e02cee044aa2894478d92b41
+      internalID: -754589282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_39
+      name: Enemigo ataque_39
       rect:
         serializedVersion: 2
-        x: 1877
-        y: 554
-        width: 458
-        height: 547
+        x: 1992
+        y: 622
+        width: 357
+        height: 583
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f295a870f6ce8f44bad2d0a626b46d32
-      internalID: 1754726825
+      spriteID: 8cf0feb1558f954479d981d5add9b614
+      internalID: -1804029396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_40
+      name: Enemigo ataque_40
       rect:
         serializedVersion: 2
-        x: 2345
-        y: 553
-        width: 452
-        height: 550
+        x: 2480
+        y: 618
+        width: 355
+        height: 583
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -964,20 +964,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b21b9c363ade284b9e10db049c79ba5
-      internalID: 103469352
+      spriteID: f717115758ed96144bdacf8a70085e46
+      internalID: -817379643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_41
+      name: Enemigo ataque_41
       rect:
         serializedVersion: 2
-        x: 2814
-        y: 553
-        width: 469
-        height: 549
+        x: 2960
+        y: 618
+        width: 361
+        height: 583
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -985,20 +985,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98e09cd582566d541adf0c7d6000c508
-      internalID: 1939890622
+      spriteID: c56595aeb3bbf9a40b0139c4784a54ba
+      internalID: 344249816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_42
+      name: Enemigo ataque_42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 469
-        height: 553
+        x: 35
+        y: 1
+        width: 371
+        height: 583
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1006,20 +1006,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15e4c0275b60e6a4ab1873e365f814be
-      internalID: -949033636
+      spriteID: fbd003d1b88104144941d09c744190e2
+      internalID: 173727259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_43
+      name: Enemigo ataque_43
       rect:
         serializedVersion: 2
-        x: 469
-        y: 0
-        width: 469
-        height: 553
+        x: 516
+        y: 5
+        width: 376
+        height: 583
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1027,20 +1027,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79e26ad1c29ac6e42baf8e52fa8fd427
-      internalID: 2092596090
+      spriteID: e591b833f245e4d4caf92eba5781315b
+      internalID: 176289360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_44
+      name: Enemigo ataque_44
       rect:
         serializedVersion: 2
-        x: 938
-        y: 0
-        width: 469
-        height: 553
+        x: 996
+        y: 7
+        width: 382
+        height: 581
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1048,20 +1048,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c44673f0edc04944ac3327911265d83
-      internalID: -940928104
+      spriteID: 65cd0ed7f7774f245b0e9eb0fa62108a
+      internalID: -1269907945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_45
+      name: Enemigo ataque_45
       rect:
         serializedVersion: 2
-        x: 1407
-        y: 0
-        width: 469
-        height: 553
+        x: 1475
+        y: 7
+        width: 389
+        height: 581
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1069,20 +1069,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5811e95480fce2749af251af3e93a1a1
-      internalID: 774384143
+      spriteID: 46e1df733bd9fe84394f17203c5f8a39
+      internalID: -197450101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_46
+      name: Enemigo ataque_46
       rect:
         serializedVersion: 2
-        x: 1876
-        y: 0
-        width: 469
-        height: 553
+        x: 1953
+        y: 3
+        width: 392
+        height: 581
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1090,20 +1090,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cffb4452fba4d84785496d5eccef40e
-      internalID: -523210774
+      spriteID: dc00021f2fb33a944b1d08dee0411d33
+      internalID: 1192757217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Conde Idle_47
+      name: Enemigo ataque_47
       rect:
         serializedVersion: 2
-        x: 2345
-        y: 0
-        width: 469
-        height: 553
+        x: 2435
+        y: 3
+        width: 396
+        height: 581
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1111,8 +1111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 136cb0727e2e34545905710bd86f1214
-      internalID: -1322235626
+      spriteID: 864ced76b9647a241b57f31cb60e28ef
+      internalID: 2065776293
       vertices: []
       indices: 
       edges: []
@@ -1128,55 +1128,54 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Conde Idle_0: 1139129112
-      Conde Idle_1: -14210529
-      Conde Idle_10: -1043264520
-      Conde Idle_11: 1818964053
-      Conde Idle_12: -78137379
-      Conde Idle_13: 2100726576
-      Conde Idle_14: -1906113631
-      Conde Idle_15: 217057310
-      Conde Idle_16: 718549813
-      Conde Idle_17: 1357989572
-      Conde Idle_18: 274048908
-      Conde Idle_19: -1536029833
-      Conde Idle_2: -1331648833
-      Conde Idle_20: 463652497
-      Conde Idle_21: 800585698
-      Conde Idle_22: 1322655967
-      Conde Idle_23: 365454077
-      Conde Idle_24: -427509040
-      Conde Idle_25: 1881747333
-      Conde Idle_26: -797954785
-      Conde Idle_27: 611506649
-      Conde Idle_28: 1980148119
-      Conde Idle_29: -1632222461
-      Conde Idle_3: -2140753640
-      Conde Idle_30: 2056623566
-      Conde Idle_31: 768161589
-      Conde Idle_32: 1464386139
-      Conde Idle_33: 961298182
-      Conde Idle_34: -401706333
-      Conde Idle_35: -955830246
-      Conde Idle_36: -1969577840
-      Conde Idle_37: 772099063
-      Conde Idle_38: -1599898775
-      Conde Idle_39: 1754726825
-      Conde Idle_4: 1741137050
-      Conde Idle_40: 103469352
-      Conde Idle_41: 1939890622
-      Conde Idle_42: -949033636
-      Conde Idle_43: 2092596090
-      Conde Idle_44: -940928104
-      Conde Idle_45: 774384143
-      Conde Idle_46: -523210774
-      Conde Idle_47: -1322235626
-      Conde Idle_48: -1482306504
-      Conde Idle_5: -195073068
-      Conde Idle_6: 1460203514
-      Conde Idle_7: 329377381
-      Conde Idle_8: 1928644358
-      Conde Idle_9: 1329786658
+      Enemigo ataque_0: 326442613
+      Enemigo ataque_1: -917286179
+      Enemigo ataque_10: -97665241
+      Enemigo ataque_11: -1401067994
+      Enemigo ataque_12: -810797826
+      Enemigo ataque_13: -336901084
+      Enemigo ataque_14: -1343674204
+      Enemigo ataque_15: 1435584647
+      Enemigo ataque_16: 1326958578
+      Enemigo ataque_17: -719384481
+      Enemigo ataque_18: -1436215050
+      Enemigo ataque_19: -1707352816
+      Enemigo ataque_2: -1102904520
+      Enemigo ataque_20: 1649042870
+      Enemigo ataque_21: -446888658
+      Enemigo ataque_22: 426908345
+      Enemigo ataque_23: -1666794927
+      Enemigo ataque_24: 917508046
+      Enemigo ataque_25: 1069527442
+      Enemigo ataque_26: -1295725467
+      Enemigo ataque_27: 272910556
+      Enemigo ataque_28: 1414023905
+      Enemigo ataque_29: -1245255179
+      Enemigo ataque_3: -2100903800
+      Enemigo ataque_30: -1035524608
+      Enemigo ataque_31: -1797176527
+      Enemigo ataque_32: 437685322
+      Enemigo ataque_33: -471208359
+      Enemigo ataque_34: 91360314
+      Enemigo ataque_35: 662016992
+      Enemigo ataque_36: 1131402876
+      Enemigo ataque_37: 441696213
+      Enemigo ataque_38: -754589282
+      Enemigo ataque_39: -1804029396
+      Enemigo ataque_4: -1357615019
+      Enemigo ataque_40: -817379643
+      Enemigo ataque_41: 344249816
+      Enemigo ataque_42: 173727259
+      Enemigo ataque_43: 176289360
+      Enemigo ataque_44: -1269907945
+      Enemigo ataque_45: -197450101
+      Enemigo ataque_46: 1192757217
+      Enemigo ataque_47: 2065776293
+      Enemigo ataque_5: 2121896795
+      Enemigo ataque_6: 1203398841
+      Enemigo ataque_7: 1488745255
+      Enemigo ataque_8: -547550525
+      Enemigo ataque_9: -612678283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

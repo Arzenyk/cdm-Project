@@ -8,6 +8,8 @@ TagManager:
   - Brick
   - Ball
   - Conde
+  - Aldeano
+  - Colmillos
   layers:
   - Default
   - TransparentFX

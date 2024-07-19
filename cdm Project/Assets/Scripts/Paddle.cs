@@ -65,7 +65,7 @@ public class Paddle : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.N))
         {
-            GameManager.Instance.forceLevelWon();
+            GameManager.Instance.ForceLevelWon();
         }
         else if (Input.GetKeyDown(KeyCode.M))
         {

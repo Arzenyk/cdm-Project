@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CondeScript : MonoBehaviour
+public class AldeanoScript : MonoBehaviour
 {
     private Animator animator;
-
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -30,13 +29,13 @@ public class CondeScript : MonoBehaviour
     public void PlayAttackAnimation()
     {
         animator.SetTrigger("Attack");
-        SetIdleStateAfterDelay(10f); // Adjust the delay to match the length of the attack animation
+        //SetIdleStateAfterDelay(1.0f); // Adjust the delay to match the length of the attack animation
     }
 
     public void PlayDamageAnimation()
     {
         animator.SetTrigger("Damage");
-        SetIdleStateAfterDelay(10f); // Adjust the delay to match the length of the damage animation
+        //SetIdleStateAfterDelay(1.0f); // Adjust the delay to match the length of the damage animation
     }
 
     public void PlayDefeatedAnimation()
@@ -52,22 +51,5 @@ public class CondeScript : MonoBehaviour
     private void SetIdleState()
     {
         animator.SetBool("IsIdle", true);
-    }
-
-    // Example method to simulate game events
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) // Simulate attack event
-        {
-            PlayAttackAnimation();
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) // Simulate damage event
-        {
-            PlayDamageAnimation();
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) // Simulate defeated event
-        {
-            PlayDefeatedAnimation();
-        }
     }
 }

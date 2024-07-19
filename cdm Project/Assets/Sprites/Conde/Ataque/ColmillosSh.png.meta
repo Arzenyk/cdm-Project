@@ -113,13 +113,13 @@ TextureImporter:
       name: ColmillosSh_0
       rect:
         serializedVersion: 2
-        x: 2390
-        y: 2049
-        width: 800
-        height: 694
+        x: 3191
+        y: 2044
+        width: 802
+        height: 705
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 0, z: 798, w: 0}
+      border: {x: 0, y: 0, z: 802, w: 0}
       outline:
       - - {x: -801.2206, y: 347}
         - {x: -801.2206, y: -347}
@@ -144,7 +144,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4017
-        y: 2116
+        y: 2125
         width: 757
         height: 526
       alignment: 0
@@ -165,7 +165,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4817
-        y: 2116
+        y: 2125
         width: 754
         height: 526
       alignment: 0
@@ -223,6 +223,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ColmillosSh_5
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 2039
+        width: 930
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e5c7c7fdc30c24c8ff75b9abaf8cbf
+      internalID: 2086580939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -239,6 +260,7 @@ TextureImporter:
       ColmillosSh_2: -1321309308
       ColmillosSh_3: 746226719
       ColmillosSh_4: 1443957562
+      ColmillosSh_5: -1538142047
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

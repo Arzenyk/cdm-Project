@@ -7,6 +7,8 @@ using System.Collections;
 public class GameManager : MonoBehaviour
 {
     private CondeScript condeScript;
+    private AldeanoScript aldeanoScript;
+    private ColmillosScript colmillosScript;
 
     public static GameManager Instance { get; private set; }
     public Ball ball {  get; private set; }
@@ -55,6 +57,8 @@ public class GameManager : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         condeScript = GameObject.FindGameObjectWithTag("Conde").GetComponent<CondeScript>();
+        aldeanoScript = GameObject.FindGameObjectWithTag("Aldeano").GetComponent<AldeanoScript>();
+        colmillosScript = GameObject.FindGameObjectWithTag("Colmillos").GetComponent<ColmillosScript>();
     }
     public void NewGame()
     {
@@ -82,6 +86,8 @@ public class GameManager : MonoBehaviour
     private void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
         condeScript = FindObjectOfType<CondeScript>();
+        aldeanoScript = FindObjectOfType<AldeanoScript>();
+        colmillosScript = FindObjectOfType<ColmillosScript>();
         this.ball = FindObjectOfType<Ball>();
         this.paddle = FindObjectOfType<Paddle>();
         this.bricks = FindObjectsOfType<Brick>();
@@ -130,6 +136,7 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
+        aldeanoScript.OnAttackEvent();
         gameOver = true;
         PlayGameOverSound();
         condeScript.OnDefeatedEvent();
@@ -162,7 +169,8 @@ public class GameManager : MonoBehaviour
     public void Miss()
     {
         this.lives--;
-        
+        aldeanoScript.OnAttackEvent();
+
         if (this.lives > 0)
         {
             ResetBallgm();
@@ -192,6 +200,8 @@ public class GameManager : MonoBehaviour
             levelWon = true;
             PlayWonLevelSound();
             condeScript.OnAttackEvent();
+            colmillosScript.OnAttackEvent();
+            aldeanoScript.OnDamageEvent();
         }
     }
 
@@ -249,7 +259,7 @@ public class GameManager : MonoBehaviour
         LoadLevel(this.level + 1);
     }
 
-    public void forceLevelWon()
+    public void ForceLevelWon()
     {
         PlayWonLevelSound();
         levelWon = true;
@@ -258,6 +268,9 @@ public class GameManager : MonoBehaviour
         LevelCompletePanel.SetActive(true);
         UpdateHighscoreText();
         condeScript.OnAttackEvent();
+        colmillosScript.OnAttackEvent();
+        Debug.Log("ahora?");
+        aldeanoScript.OnDefeatedEvent();
     }
 
     private void PlayGameOverSound()
@@ -304,7 +317,7 @@ public class GameManager : MonoBehaviour
     public void StopCancionSound()
     {
         audioSource.clip = cancion;
-        audioSource.enabled = false;
+        audioSource.Pause();
         mutedGame = true;
     }
 }

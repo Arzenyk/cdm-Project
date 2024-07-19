@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: 14d32a65af5afc94099569f8b4126acb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3568
+        width: 395
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d8f7f9ad95e5f4b8946978643fea6e
+      internalID: 1142374702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_1"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 3564
+        width: 396
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a442bb031c084d444be26fad26d044a0
+      internalID: 1476207637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_2"
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 3560
+        width: 392
+        height: 584
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3244709c5d22cbf4d90e29df316162a5
+      internalID: 1027716888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_3"
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 3558
+        width: 391
+        height: 586
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ec007742cc6f64ba62a0e7e15592c2
+      internalID: 1791209134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_4"
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 3556
+        width: 387
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6ec4bc74c49c6439615ec6c409ec05
+      internalID: 989799025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_5"
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 3555
+        width: 384
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2484587e84fae47ad915afe48cbc6f
+      internalID: -775599628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_6"
+      rect:
+        serializedVersion: 2
+        x: 3507
+        y: 3557
+        width: 390
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479e34a4979cb2b499fad936148dbc07
+      internalID: -133093855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_7"
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2961
+        width: 381
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ab47b2f57af194290fe2c8c004c1fb
+      internalID: 1697286134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_8"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 2965
+        width: 384
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08783e2b716fed43871a5a3012f63e6
+      internalID: 187838078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_9"
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 2961
+        width: 386
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bee6180ae52a041b4e017ed8b50961
+      internalID: 970079398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_10"
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 2961
+        width: 386
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf1b85b9bb6c3b428cea4e8f78d35a9
+      internalID: -1690168861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_11"
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 2965
+        width: 387
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd83866097e8c154d983b5a68f510fdc
+      internalID: -984597009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_12"
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 2961
+        width: 390
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5b7499f12bce74099d3dca679fc38e
+      internalID: -203782028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_13"
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 2961
+        width: 392
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeadf7c7a6622b468031b7da56b84dd
+      internalID: -1802927826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_14"
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2374
+        width: 394
+        height: 583
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72df425635184614bac493d1c0725edd
+      internalID: 443127243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_15"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2371
+        width: 399
+        height: 582
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a68bc58fda604099cf839f0257c83
+      internalID: 199982212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_16"
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2368
+        width: 391
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65db3f2ba984d4649aa54a743ee77032
+      internalID: -1055259174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_17"
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 2366
+        width: 391
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5e94750d472bc4791040359a012194
+      internalID: -1231268113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_18"
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 2366
+        width: 391
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2b6a6687a9e8e4cb95d0da963e11d0
+      internalID: -1032371825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_19"
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 2366
+        width: 388
+        height: 590
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07c1382137bc894f9f3179c29e05714
+      internalID: -1921054726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_20"
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 2369
+        width: 386
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5391efd79f4cb1340b4b7dfc09beea80
+      internalID: -1486841048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_21"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1784
+        width: 384
+        height: 586
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80890aa49358dbe40a081847e38eb995
+      internalID: 1902659751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_22"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1790
+        width: 386
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a16704ee7d9cd4993d7fc146d61806
+      internalID: 1239684989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_23"
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1796
+        width: 388
+        height: 572
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf14345c8086c6e4a9cac2c7e3e7a915
+      internalID: 1694944547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_24"
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1790
+        width: 386
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8615e8d1bae174c8edcbe3b1c6e87d
+      internalID: -1338178632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_25"
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 1788
+        width: 384
+        height: 578
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4441a92d9f7c7da4d845d2ec6d16a967
+      internalID: 1950834178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_29"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1196
+        width: 400
+        height: 584
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ddc47a2879a6e40a8942293567f683
+      internalID: -67057050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_30"
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1198
+        width: 404
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f764850c17b9f428bc2a3c0dd1a90d
+      internalID: 798625920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Enemigo da\xF1ado_31"
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1191
+        width: 414
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6936d945dd757a43a29a1a2d3c8d433
+      internalID: -1555984386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Enemigo da\xF1ado_0": 1142374702
+      "Enemigo da\xF1ado_1": 1476207637
+      "Enemigo da\xF1ado_10": -1690168861
+      "Enemigo da\xF1ado_11": -984597009
+      "Enemigo da\xF1ado_12": -203782028
+      "Enemigo da\xF1ado_13": -1802927826
+      "Enemigo da\xF1ado_14": 443127243
+      "Enemigo da\xF1ado_15": 199982212
+      "Enemigo da\xF1ado_16": -1055259174
+      "Enemigo da\xF1ado_17": -1231268113
+      "Enemigo da\xF1ado_18": -1032371825
+      "Enemigo da\xF1ado_19": -1921054726
+      "Enemigo da\xF1ado_2": 1027716888
+      "Enemigo da\xF1ado_20": -1486841048
+      "Enemigo da\xF1ado_21": 1902659751
+      "Enemigo da\xF1ado_22": 1239684989
+      "Enemigo da\xF1ado_23": 1694944547
+      "Enemigo da\xF1ado_24": -1338178632
+      "Enemigo da\xF1ado_25": 1950834178
+      "Enemigo da\xF1ado_26": -1707687898
+      "Enemigo da\xF1ado_27": -1666193310
+      "Enemigo da\xF1ado_28": -556005373
+      "Enemigo da\xF1ado_29": -67057050
+      "Enemigo da\xF1ado_3": 1791209134
+      "Enemigo da\xF1ado_30": 798625920
+      "Enemigo da\xF1ado_31": -1555984386
+      "Enemigo da\xF1ado_4": 989799025
+      "Enemigo da\xF1ado_5": -775599628
+      "Enemigo da\xF1ado_6": -133093855
+      "Enemigo da\xF1ado_7": 1697286134
+      "Enemigo da\xF1ado_8": 187838078
+      "Enemigo da\xF1ado_9": 970079398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
