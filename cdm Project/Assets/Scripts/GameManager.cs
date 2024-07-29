@@ -33,13 +33,15 @@ public class GameManager : MonoBehaviour
     private GameObject HighScoreInPanel;
     private GameObject LevelCompletePanel;
 
+    /*
     public AudioClip Cancion;
     public AudioClip gameOverSound;
     public AudioClip lostLifeSound;
     public AudioClip wonLevelSound;
     public AudioClip Cancion1;
+    */
 
-    private AudioSource audioSource;
+    //private AudioSource audioSource;
     private void Awake()
     {
         if (Instance == null)
@@ -57,11 +59,13 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
+        /*
         audioSource = GameObject.Find("GameManager").GetComponent<AudioSource>();
         if (Cancion1 == null)
         {
             Debug.LogError("GameOverSound AudioClip is not assigned.");
         }
+        */
     }
     public void NewGame()
     {
@@ -79,8 +83,8 @@ public class GameManager : MonoBehaviour
         if (level < 1)
         {
             inMenu = true;
-            audioSource.clip = Cancion1;
-            audioSource.Stop();
+            //audioSource.clip = Cancion1;
+            //audioSource.Stop();
         }
         else
         {
@@ -97,7 +101,7 @@ public class GameManager : MonoBehaviour
         if (this.level < 1)
         {
             inMenu = true;
-            InMenu();
+            //InMenu();
         }
         condeScript = FindObjectOfType<CondeScript>();
         aldeanoScript = FindObjectOfType<AldeanoScript>();
@@ -122,6 +126,7 @@ public class GameManager : MonoBehaviour
         UpdateLevelText();
         UpdateHighscoreText();
 
+        /*
         if (mutedGame == false)
         {
             PlayCancionSound();
@@ -130,6 +135,7 @@ public class GameManager : MonoBehaviour
         {
             StopCancionSound();
         }
+        */
     }
 
     public void ResetLevel()
@@ -156,7 +162,7 @@ public class GameManager : MonoBehaviour
     {
         aldeanoScript.OnAttackEvent();
         gameOver = true;
-        PlayGameOverSound();
+        //PlayGameOverSound();
         condeScript.OnDefeatedEvent();
         GameObject canvas = GameObject.Find("Canvas");
         gameOverPanel = canvas.transform.Find("GameOverPanel").gameObject;
@@ -194,7 +200,7 @@ public class GameManager : MonoBehaviour
             ResetBallgm();
             ResetPaddlegm();
             UpdateLivesText();
-            PlayLostLifeSound();
+            //PlayLostLifeSound();
             condeScript.OnDamageEvent();
         }
         else
@@ -216,7 +222,7 @@ public class GameManager : MonoBehaviour
             LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
             LevelCompletePanel.SetActive(true);
             levelWon = true;
-            PlayWonLevelSound();
+            //PlayWonLevelSound();
             condeScript.OnAttackEvent();
             colmillosScript.OnAttackEvent();
             aldeanoScript.OnDamageEvent();
@@ -279,7 +285,7 @@ public class GameManager : MonoBehaviour
 
     public void ForceLevelWon()
     {
-        PlayWonLevelSound();
+        //PlayWonLevelSound();
         levelWon = true;
         GameObject canvas = GameObject.Find("Canvas");
         LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
@@ -291,22 +297,27 @@ public class GameManager : MonoBehaviour
         aldeanoScript.OnDefeatedEvent();
     }
 
+    /*
     private void PlayGameOverSound()
     {
+        
         audioSource.Stop();
 
         audioSource.clip = gameOverSound;
         audioSource.loop = false;
         audioSource.Play();
+        
     }
 
     private void PlayLostLifeSound()
     {
-        StartCoroutine(PlayLostLifeSoundCoroutine());
+        //StartCoroutine(PlayLostLifeSoundCoroutine());
     }
 
+    
     private IEnumerator PlayLostLifeSoundCoroutine()
     {
+        
         audioSource.Stop();
 
         audioSource.clip = lostLifeSound;
@@ -316,6 +327,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(audioSource.clip.length);
 
         PlayCancionSound();
+        
     }
 
     private void PlayWonLevelSound()
@@ -361,4 +373,5 @@ public class GameManager : MonoBehaviour
             Debug.Log("did not");
         }
     }
+    */
 }

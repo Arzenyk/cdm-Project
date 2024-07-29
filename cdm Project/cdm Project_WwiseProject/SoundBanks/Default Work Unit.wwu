@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F4293442-147C-4CFB-99E8-1BEB6D1EAD3E}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{F4293442-147C-4CFB-99E8-1BEB6D1EAD3E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F4293442-147C-4CFB-99E8-1BEB6D1EAD3E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{1036EEEA-8366-4A5E-A54F-EC3BE7053605}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Lost_Life" ID="{D8BFFBC3-3E08-41C5-92E5-CC5B050C31E3}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AddLife" ID="{0E412C47-3785-441E-8962-C2E4811736F3}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Hitting_Brick" ID="{28011B23-E29B-448E-9BE4-DC6C39D9EA4D}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Game_Over_voice" ID="{9B5F29D8-CA6C-451A-B3B9-4AE33EE7251C}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Cancion" ID="{36D7DAC4-91E5-46EC-8B58-3C003780F3D2}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Tecladito" ID="{722C293A-0421-470C-BF88-33A61670C9A2}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Hitting_Paddle_3" ID="{D0300187-90A6-472A-B237-62D86A2F5943}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Hitting_Paddle_1" ID="{E8623EEC-6E95-49F4-B607-1700E7CF2348}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Hitting_Paddle_2" ID="{5A30AFE6-12E4-4BD9-9B38-F33F183BEA67}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Cancion" ID="{C9066509-BB93-4CE4-B6D9-C4CC39520CC4}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Tecladito" ID="{D114A68C-B2C3-4CE5-ACE9-0F8B10825895}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Won_Level" ID="{0585BB82-A3CD-4F7E-AFFF-A1456178519D}" WorkUnitID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

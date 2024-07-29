@@ -1,6 +1,241 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B54557AC-15DB-44C5-B169-421B3954D598}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{B54557AC-15DB-44C5-B169-421B3954D598}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B54557AC-15DB-44C5-B169-421B3954D598}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Cancion" ID="{52FDBA11-C059-4B09-A2A4-AAD9A317EA15}" ShortID="965148509">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cancion" ID="{0314B55F-F21F-4203-8832-974FD323C6C0}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0522448979591837"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0348299319727889"/>
+								<Property Name="LoopEnd" Type="Real64" Value="10.6318082788671"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Cancion.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1054981917"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Cancion" ID="{0314B55F-F21F-4203-8832-974FD323C6C0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Game Over voice" ID="{8C2D7473-E84D-4BDD-8489-DAF713541C60}" ShortID="716151672">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Game Over voice" ID="{27F09500-0900-44A1-8EF9-F0871945134F}">
+							<Language>SFX</Language>
+							<AudioFile>Game Over voice.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="567494660"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Game Over voice" ID="{27F09500-0900-44A1-8EF9-F0871945134F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Hitting Brick" ID="{72B5697F-F7CC-404C-8260-72195A5AB921}" ShortID="286671300">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hitting Brick" ID="{B4982B16-CD9C-4A3B-9575-63118FC90FD7}">
+							<Language>SFX</Language>
+							<AudioFile>Hitting Brick.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="799527924"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Hitting Brick" ID="{B4982B16-CD9C-4A3B-9575-63118FC90FD7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Hitting Paddle 1" ID="{CA2C1A15-D924-4A60-82DF-F5F901207F3B}" ShortID="473754079">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hitting Paddle 1" ID="{C6924412-44CC-4559-AE4A-E5296292584B}">
+							<Language>SFX</Language>
+							<AudioFile>Hitting Paddle 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1001159821"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Hitting Paddle 1" ID="{C6924412-44CC-4559-AE4A-E5296292584B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Hitting Paddle 2" ID="{F9CEF9B7-7A9D-4A7C-83FB-56AD4403E901}" ShortID="100587725">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hitting Paddle 2" ID="{3AAE2D7C-B94B-422E-9B19-90250DFB4DC0}">
+							<Language>SFX</Language>
+							<AudioFile>Hitting Paddle 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="743578339"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Hitting Paddle 2" ID="{3AAE2D7C-B94B-422E-9B19-90250DFB4DC0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Hitting Paddle 3" ID="{2E6ECD57-E97C-47A6-964A-F7B471626C19}" ShortID="1040502164">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hitting Paddle 3" ID="{E0FE7EEA-4AB4-444B-894F-7A78FC3D5CF3}">
+							<Language>SFX</Language>
+							<AudioFile>Hitting Paddle 3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="788404920"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Hitting Paddle 3" ID="{E0FE7EEA-4AB4-444B-894F-7A78FC3D5CF3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Lost Life" ID="{319E831E-8776-4C16-AF25-651B837DF321}" ShortID="972311470">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Lost Life" ID="{A037CCBA-B34F-4919-8303-68A476079D93}">
+							<Language>SFX</Language>
+							<AudioFile>Lost Life.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="677678998"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Lost Life" ID="{A037CCBA-B34F-4919-8303-68A476079D93}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tecladito" ID="{6E6A2ED9-50D8-477E-961F-51F1A0B5229B}" ShortID="542555621">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tecladito" ID="{98677493-34E0-4489-ACDE-4C486EB4DFFE}">
+							<Language>SFX</Language>
+							<AudioFile>Tecladito.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1028167"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Tecladito" ID="{98677493-34E0-4489-ACDE-4C486EB4DFFE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Won Level" ID="{CEFEE7ED-CF1A-424B-97E6-43C65FA1534D}" ShortID="262986884">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Won Level" ID="{F95159CD-4466-4BCF-91E0-B0735DF0E1C7}">
+							<Language>SFX</Language>
+							<AudioFile>Won Level.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="991960384"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Won Level" ID="{F95159CD-4466-4BCF-91E0-B0735DF0E1C7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AddLife" ID="{5A506E17-F14E-45FA-95F2-3DEEDA81872B}" ShortID="927399238">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F5CC15F-59F5-413B-8587-FD0CD027FFF0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{527F3501-A20C-491A-8FD8-B4A48D84BB16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AddLife" ID="{511DBD8C-B9F9-40D5-9FBC-4306830557A3}">
+							<Language>SFX</Language>
+							<AudioFile>AddLife.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="565007692"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AddLife" ID="{511DBD8C-B9F9-40D5-9FBC-4306830557A3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

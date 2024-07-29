@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{F0831C7D-A6EA-CE5C-8859-F1EF9DBEFE27}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="1028167" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tecladito.wav</ShortName>
+					<CachePath>SFX/Tecladito_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="565007692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AddLife.wav</ShortName>
+					<CachePath>SFX/AddLife_818F3B66.wem</CachePath>
+				</File>
+				<File Id="567494660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Game Over voice.wav</ShortName>
+					<CachePath>SFX/Game Over voice_818F3B66.wem</CachePath>
+				</File>
+				<File Id="677678998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lost Life.wav</ShortName>
+					<CachePath>SFX/Lost Life_818F3B66.wem</CachePath>
+				</File>
+				<File Id="743578339" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hitting Paddle 2.wav</ShortName>
+					<CachePath>SFX/Hitting Paddle 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="788404920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hitting Paddle 3.wav</ShortName>
+					<CachePath>SFX/Hitting Paddle 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="799527924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hitting Brick.wav</ShortName>
+					<CachePath>SFX/Hitting Brick_818F3B66.wem</CachePath>
+				</File>
+				<File Id="991960384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Won Level.wav</ShortName>
+					<CachePath>SFX/Won Level_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1001159821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hitting Paddle 1.wav</ShortName>
+					<CachePath>SFX/Hitting Paddle 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1054981917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cancion.wav</ShortName>
+					<CachePath>SFX/Cancion_55492FE5.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2392161189" Name="Play_AddLife" DurationType="OneShot" DurationMin="0.4995465" DurationMax="0.4995465">
+					<MediaRefs>
+						<MediaRef Id="565007692"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1609197639" Name="Play_Cancion" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1054981917"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="508316546" Name="Play_Game_Over_voice" DurationType="OneShot" DurationMin="22.486599" DurationMax="22.486599">
+					<MediaRefs>
+						<MediaRef Id="567494660"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4188405383" Name="Play_Hitting_Brick" DurationType="OneShot" DurationMin="3.0758958" DurationMax="3.0758958">
+					<MediaRefs>
+						<MediaRef Id="799527924"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1359147580" Name="Play_Hitting_Paddle_1" DurationType="OneShot" DurationMin="3.5624943" DurationMax="3.5624943">
+					<MediaRefs>
+						<MediaRef Id="1001159821"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1359147583" Name="Play_Hitting_Paddle_2" DurationType="OneShot" DurationMin="3.25" DurationMax="3.25">
+					<MediaRefs>
+						<MediaRef Id="743578339"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1359147582" Name="Play_Hitting_Paddle_3" DurationType="OneShot" DurationMin="3.25" DurationMax="3.25">
+					<MediaRefs>
+						<MediaRef Id="788404920"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3975746969" Name="Play_Lost_Life" DurationType="OneShot" DurationMin="2.892857" DurationMax="2.892857">
+					<MediaRefs>
+						<MediaRef Id="677678998"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="950734977" Name="Play_Tecladito" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1028167"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="218446177" Name="Play_Won_Level" DurationType="OneShot" DurationMin="3.1249886" DurationMax="3.1249886">
+					<MediaRefs>
+						<MediaRef Id="991960384"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="130721877" Name="Stop_Cancion" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="460065291" Name="Stop_Tecladito" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{ABC8A9B0-2EBF-FE02-20A1-AA085EC87A06}</FileHash>
+</SoundBanksInfo>

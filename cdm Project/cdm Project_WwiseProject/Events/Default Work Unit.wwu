@@ -1,6 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FEEA61F9-E665-4E48-96BD-4DD80B0D44EB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Cancion" ID="{36D7DAC4-91E5-46EC-8B58-3C003780F3D2}">
+					<ChildrenList>
+						<Action Name="" ID="{DD58FF3C-926D-46CB-AB6E-834B7BA7404B}" ShortID="554106779">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cancion" ID="{52FDBA11-C059-4B09-A2A4-AAD9A317EA15}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AddLife" ID="{0E412C47-3785-441E-8962-C2E4811736F3}">
+					<ChildrenList>
+						<Action Name="" ID="{BC7A7A0A-F5DD-4E89-8767-D95001C2117E}" ShortID="98279318">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AddLife" ID="{5A506E17-F14E-45FA-95F2-3DEEDA81872B}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game_Over_voice" ID="{9B5F29D8-CA6C-451A-B3B9-4AE33EE7251C}">
+					<ChildrenList>
+						<Action Name="" ID="{B4C7B878-12CA-407B-BD06-138F5C4A2C5B}" ShortID="850681985">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game Over voice" ID="{8C2D7473-E84D-4BDD-8489-DAF713541C60}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hitting_Brick" ID="{28011B23-E29B-448E-9BE4-DC6C39D9EA4D}">
+					<ChildrenList>
+						<Action Name="" ID="{CF393055-A61F-4CDA-AA43-236F5FBC6238}" ShortID="766483311">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hitting Brick" ID="{72B5697F-F7CC-404C-8260-72195A5AB921}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hitting_Paddle_1" ID="{E8623EEC-6E95-49F4-B607-1700E7CF2348}">
+					<ChildrenList>
+						<Action Name="" ID="{243687EE-4DBC-4C81-8C20-012F6DE017BC}" ShortID="335797046">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hitting Paddle 1" ID="{CA2C1A15-D924-4A60-82DF-F5F901207F3B}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hitting_Paddle_2" ID="{5A30AFE6-12E4-4BD9-9B38-F33F183BEA67}">
+					<ChildrenList>
+						<Action Name="" ID="{2A7922F5-F470-4261-94A8-8C8669D143FF}" ShortID="671895400">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hitting Paddle 2" ID="{F9CEF9B7-7A9D-4A7C-83FB-56AD4403E901}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hitting_Paddle_3" ID="{D0300187-90A6-472A-B237-62D86A2F5943}">
+					<ChildrenList>
+						<Action Name="" ID="{8F282C78-1A51-46D7-BFF2-64B31B64AF70}" ShortID="306010085">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hitting Paddle 3" ID="{2E6ECD57-E97C-47A6-964A-F7B471626C19}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lost_Life" ID="{D8BFFBC3-3E08-41C5-92E5-CC5B050C31E3}">
+					<ChildrenList>
+						<Action Name="" ID="{B6AD17F9-81F3-4526-85E5-4A05BCAB2F89}" ShortID="552697193">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lost Life" ID="{319E831E-8776-4C16-AF25-651B837DF321}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tecladito" ID="{D114A68C-B2C3-4CE5-ACE9-0F8B10825895}">
+					<ChildrenList>
+						<Action Name="" ID="{450B847C-B655-4041-8A97-20EE94173C56}" ShortID="675684116">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tecladito" ID="{6E6A2ED9-50D8-477E-961F-51F1A0B5229B}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Won_Level" ID="{0585BB82-A3CD-4F7E-AFFF-A1456178519D}">
+					<ChildrenList>
+						<Action Name="" ID="{1E8E20D7-6B86-43DE-9AE1-3F3EE618C391}" ShortID="933505127">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Won Level" ID="{CEFEE7ED-CF1A-424B-97E6-43C65FA1534D}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Cancion" ID="{C9066509-BB93-4CE4-B6D9-C4CC39520CC4}">
+					<ChildrenList>
+						<Action Name="" ID="{D5F4D150-75F8-412E-9761-D0AF25D85FBA}" ShortID="125642715">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cancion" ID="{52FDBA11-C059-4B09-A2A4-AAD9A317EA15}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Tecladito" ID="{722C293A-0421-470C-BF88-33A61670C9A2}">
+					<ChildrenList>
+						<Action Name="" ID="{7B593AA9-50CE-4487-A98B-7DF22E092475}" ShortID="808268722">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tecladito" ID="{6E6A2ED9-50D8-477E-961F-51F1A0B5229B}" WorkUnitID="{B54557AC-15DB-44C5-B169-421B3954D598}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

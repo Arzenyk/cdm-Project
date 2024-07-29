@@ -69,7 +69,7 @@ public class Paddle : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.M))
         {
-            GameManager.Instance.StopCancionSound();
+            //GameManager.Instance.StopCancionSound();
         }
         else
         {

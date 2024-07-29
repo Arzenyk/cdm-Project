@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="cdm Project_WwiseProject" GUID="{317546BD-9CE5-498D-9611-0F6217DE6123}" Generator="2023.1.5.8522"/>
+	<CacheRoot>../../../../cdm Project_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{82D7FE44-2476-4B12-9315-B8D5DE3CCF19}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../cdm Project_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{2264815C-4208-47ED-92D9-173D1DBA19FA}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../cdm Project_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{2BFD80C6-B3CF-4B1E-9DC7-690DCD517D25}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{682E58C1-218D-2A98-B9AE-5177F7B31BFD}</FileHash>
+</ProjectInfo>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871491a6118de8449a380f6b771ae299, type: 3}
+  m_Name: D114A68C-B2C3-4CE5-ACE9-0F8B10825895
+  m_EditorClassIdentifier: 
+  objectName: Play_Tecladito
+  id: 950734977
+  guid: D114A68C-B2C3-4CE5-ACE9-0F8B10825895

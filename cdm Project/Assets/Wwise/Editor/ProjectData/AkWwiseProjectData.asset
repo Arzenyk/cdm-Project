@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 423429f47c14fb4c99e81beb6d1ead3e
     GuidInternal: 
-    m_lastTime: -8584798415561290431
-    List: []
+    m_lastTime: -8584793360612549751
+    List:
+    - name: Main
+      guid: eaee361066835e4aa54fec3be7053605
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 423429f47c14fb4c99e81beb6d1ead3e
+      - ElementName: Main
+        ObjectType: 7
+        guid: eaee361066835e4aa54fec3be7053605
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,212 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: f961eafe65e6484e96bd4dd80b0d44eb
     GuidInternal: 
-    m_lastTime: -8584798415561020371
-    List: []
+    m_lastTime: -8584793361929277586
+    List:
+    - name: Play_AddLife
+      guid: 472c410e85371e448962c2e4811736f3
+      id: 2392161189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_AddLife
+        ObjectType: 3
+        guid: 472c410e85371e448962c2e4811736f3
+      Path: Events\Default Work Unit\Play_AddLife
+      maxAttenuation: 0
+      maxDuration: 0.4995465
+      minDuration: 0.4995465
+    - name: Play_Cancion
+      guid: c4dad736e591ec468b583c003780f3d2
+      id: 1609197639
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_Cancion
+        ObjectType: 3
+        guid: c4dad736e591ec468b583c003780f3d2
+      Path: Events\Default Work Unit\Play_Cancion
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Game_Over_voice
+      guid: d8295f9b6cca1a45b3b94ae33ee7251c
+      id: 508316546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_Game_Over_voice
+        ObjectType: 3
+        guid: d8295f9b6cca1a45b3b94ae33ee7251c
+      Path: Events\Default Work Unit\Play_Game_Over_voice
+      maxAttenuation: 0
+      maxDuration: 22.486599
+      minDuration: 22.486599
+    - name: Play_Hitting_Brick
+      guid: 231b01289be28e449be4dc6c39d9ea4d
+      id: 4188405383
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_Hitting_Brick
+        ObjectType: 3
+        guid: 231b01289be28e449be4dc6c39d9ea4d
+      Path: Events\Default Work Unit\Play_Hitting_Brick
+      maxAttenuation: 0
+      maxDuration: 3.0758958
+      minDuration: 3.0758958
+    - name: Play_Hitting_Paddle_1
+      guid: ec3e62e8956ef449b6071700e7cf2348
+      id: 1359147580
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_Hitting_Paddle_1
+        ObjectType: 3
+        guid: ec3e62e8956ef449b6071700e7cf2348
+      Path: Events\Default Work Unit\Play_Hitting_Paddle_1
+      maxAttenuation: 0
+      maxDuration: 3.5624943
+      minDuration: 3.5624943
+    - name: Play_Hitting_Paddle_2
+      guid: e6af305ae412d94b9b38f33f183bea67
+      id: 1359147583
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_Hitting_Paddle_2
+        ObjectType: 3
+        guid: e6af305ae412d94b9b38f33f183bea67
+      Path: Events\Default Work Unit\Play_Hitting_Paddle_2
+      maxAttenuation: 0
+      maxDuration: 3.25
+      minDuration: 3.25
+    - name: Play_Hitting_Paddle_3
+      guid: 870130d0a6902a47b23762d86a2f5943
+      id: 1359147582
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_Hitting_Paddle_3
+        ObjectType: 3
+        guid: 870130d0a6902a47b23762d86a2f5943
+      Path: Events\Default Work Unit\Play_Hitting_Paddle_3
+      maxAttenuation: 0
+      maxDuration: 3.25
+      minDuration: 3.25
+    - name: Play_Lost_Life
+      guid: c3fbbfd8083ec54192e5cc5b050c31e3
+      id: 3975746969
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_Lost_Life
+        ObjectType: 3
+        guid: c3fbbfd8083ec54192e5cc5b050c31e3
+      Path: Events\Default Work Unit\Play_Lost_Life
+      maxAttenuation: 0
+      maxDuration: 2.892857
+      minDuration: 2.892857
+    - name: Play_Tecladito
+      guid: 8ca614d1c3b2e54cace90f8b10825895
+      id: 950734977
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_Tecladito
+        ObjectType: 3
+        guid: 8ca614d1c3b2e54cace90f8b10825895
+      Path: Events\Default Work Unit\Play_Tecladito
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Won_Level
+      guid: 82bb8505cda37e4fafffa1456178519d
+      id: 218446177
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Play_Won_Level
+        ObjectType: 3
+        guid: 82bb8505cda37e4fafffa1456178519d
+      Path: Events\Default Work Unit\Play_Won_Level
+      maxAttenuation: 0
+      maxDuration: 3.1249886
+      minDuration: 3.1249886
+    - name: Stop_Cancion
+      guid: 096506c993bbe44cb6d9c4cc39520cc4
+      id: 130721877
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Stop_Cancion
+        ObjectType: 3
+        guid: 096506c993bbe44cb6d9c4cc39520cc4
+      Path: Events\Default Work Unit\Stop_Cancion
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Tecladito
+      guid: 3a292c7221040c47bf8833a61670c9a2
+      id: 460065291
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f961eafe65e6484e96bd4dd80b0d44eb
+      - ElementName: Stop_Tecladito
+        ObjectType: 3
+        guid: 3a292c7221040c47bf8833a61670c9a2
+      Path: Events\Default Work Unit\Stop_Tecladito
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +357,7 @@ MonoBehaviour:
     m_lastTime: -8584798415560490254
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 5700000058000000c6000000c7000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

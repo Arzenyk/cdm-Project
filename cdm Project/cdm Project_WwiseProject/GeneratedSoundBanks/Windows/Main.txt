@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	130721877	Stop_Cancion			\Default Work Unit\Stop_Cancion	
+	218446177	Play_Won_Level			\Default Work Unit\Play_Won_Level	
+	460065291	Stop_Tecladito			\Default Work Unit\Stop_Tecladito	
+	508316546	Play_Game_Over_voice			\Default Work Unit\Play_Game_Over_voice	
+	950734977	Play_Tecladito			\Default Work Unit\Play_Tecladito	
+	1359147580	Play_Hitting_Paddle_1			\Default Work Unit\Play_Hitting_Paddle_1	
+	1359147582	Play_Hitting_Paddle_3			\Default Work Unit\Play_Hitting_Paddle_3	
+	1359147583	Play_Hitting_Paddle_2			\Default Work Unit\Play_Hitting_Paddle_2	
+	1609197639	Play_Cancion			\Default Work Unit\Play_Cancion	
+	2392161189	Play_AddLife			\Default Work Unit\Play_AddLife	
+	3975746969	Play_Lost_Life			\Default Work Unit\Play_Lost_Life	
+	4188405383	Play_Hitting_Brick			\Default Work Unit\Play_Hitting_Brick	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1028167	Tecladito	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\Tecladito_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tecladito		1881744
+	565007692	AddLife	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\AddLife_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AddLife		44156
+	567494660	Game Over voice	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\Game Over voice_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game Over voice		3966780
+	677678998	Lost Life	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\Lost Life_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lost Life		510444
+	743578339	Hitting Paddle 2	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\Hitting Paddle 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hitting Paddle 2		573444
+	788404920	Hitting Paddle 3	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\Hitting Paddle 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hitting Paddle 3		573444
+	799527924	Hitting Brick	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\Hitting Brick_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hitting Brick		542732
+	991960384	Won Level	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\Won Level_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Won Level		551392
+	1001159821	Hitting Paddle 1	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\Hitting Paddle 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hitting Paddle 1		628568
+	1054981917	Cancion	D:\Proyectos\cdm-Project\cdm Project\cdm Project_WwiseProject\.cache\Windows\SFX\Cancion_55492FE5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cancion		1881744
+
