@@ -33,6 +33,10 @@ public class GameManager : MonoBehaviour
     private GameObject HighScoreInPanel;
     private GameObject LevelCompletePanel;
 
+    private VideoManager videoManager;
+
+    private bool halfClearedActionPerformed = false;
+
     /*
     public AudioClip Cancion;
     public AudioClip gameOverSound;
@@ -114,6 +118,8 @@ public class GameManager : MonoBehaviour
         Livestxt = GameObject.Find("Livestxt").GetComponent<TMP_Text>();
         Leveltxt = GameObject.Find("Leveltxt").GetComponent<TMP_Text>();
 
+        videoManager = GameObject.Find("VideoManager").GetComponent<VideoManager>();
+
         GameObject canvas = GameObject.Find("Canvas");
         HighScoretxt = canvas.transform.Find("GameOverPanel/HighScoretxt").GetComponent<TMP_Text>();
         
@@ -138,6 +144,20 @@ public class GameManager : MonoBehaviour
         */
     }
 
+    private void Update()
+    {
+        if (IsHalfCleared() && !halfClearedActionPerformed)
+        {
+            PerformHalfClearedAction();
+            halfClearedActionPerformed = true;
+        }
+
+        if (IsCleared())
+        {
+            PerformLevelClearedAction();
+        }
+    }
+
     public void ResetLevel()
     {
         ResetBallgm();
@@ -160,10 +180,11 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
-        aldeanoScript.OnAttackEvent();
+        //aldeanoScript.OnAttackEvent();
         gameOver = true;
         //PlayGameOverSound();
-        condeScript.OnDefeatedEvent();
+        //condeScript.OnDefeatedEvent();
+        videoManager.OnGameSituationChanged("Conde pierde");
         GameObject canvas = GameObject.Find("Canvas");
         gameOverPanel = canvas.transform.Find("GameOverPanel").gameObject;
         gameOverPanel.SetActive(true);
@@ -193,7 +214,7 @@ public class GameManager : MonoBehaviour
     public void Miss()
     {
         this.lives--;
-        aldeanoScript.OnAttackEvent();
+        //aldeanoScript.OnAttackEvent();
 
         if (this.lives > 0)
         {
@@ -201,7 +222,8 @@ public class GameManager : MonoBehaviour
             ResetPaddlegm();
             UpdateLivesText();
             //PlayLostLifeSound();
-            condeScript.OnDamageEvent();
+            //condeScript.OnDamageEvent();
+            videoManager.OnGameSituationChanged("Conde lastim");
         }
         else
         {
@@ -216,20 +238,19 @@ public class GameManager : MonoBehaviour
         UpdateScoreText();
         UpdateHighscoreText();
 
-        if (Cleared())
+        /*
+        if (IsCleared())
         {
-            GameObject canvas = GameObject.Find("Canvas");
-            LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
-            LevelCompletePanel.SetActive(true);
-            levelWon = true;
-            //PlayWonLevelSound();
-            condeScript.OnAttackEvent();
-            colmillosScript.OnAttackEvent();
-            aldeanoScript.OnDamageEvent();
+            
         }
+        else if (IsHalfCleared())
+        {
+            videoManager.OnGameSituationChanged("Conde ataca");
+        }
+        */
     }
 
-    public bool Cleared()
+    public bool IsCleared()
     {
         for (int i = 0; i < this.bricks.Length; i++)
         {
@@ -240,6 +261,47 @@ public class GameManager : MonoBehaviour
         }
 
         return true;
+    }
+
+    public bool IsHalfCleared()
+    {
+        int totalBricks = this.bricks.Length;
+        int breakableBricks = 0;
+        int clearedBricks = 0;
+
+        for (int i = 0; i < totalBricks; i++)
+        {
+            if (!this.bricks[i].unbreakable)
+            {
+                breakableBricks++;
+                if (!this.bricks[i].gameObject.activeInHierarchy)
+                {
+                    clearedBricks++;
+                }
+            }
+        }
+
+        return clearedBricks >= breakableBricks / 2;
+    }
+
+    private void PerformHalfClearedAction()
+    {
+        videoManager.OnGameSituationChanged("Conde ataca");
+        Debug.Log("Half of the breakable bricks have been cleared!");
+    }
+
+    private void PerformLevelClearedAction()
+    {
+        GameObject canvas = GameObject.Find("Canvas");
+        LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
+        LevelCompletePanel.SetActive(true);
+        levelWon = true;
+        //PlayWonLevelSound();
+        //condeScript.OnAttackEvent();
+        //colmillosScript.OnAttackEvent();
+        //aldeanoScript.OnDamageEvent();
+        videoManager.OnGameSituationChanged("Conde gana");
+        Debug.Log("Level cleared!");
     }
 
     private void UpdateScoreText()
@@ -291,10 +353,11 @@ public class GameManager : MonoBehaviour
         LevelCompletePanel = canvas.transform.Find("LevelCompletePanel").gameObject;
         LevelCompletePanel.SetActive(true);
         UpdateHighscoreText();
-        condeScript.OnAttackEvent();
-        colmillosScript.OnAttackEvent();
+        videoManager.OnGameSituationChanged("Conde gana");
+        //condeScript.OnAttackEvent();
+        //colmillosScript.OnAttackEvent();
         Debug.Log("ahora?");
-        aldeanoScript.OnDefeatedEvent();
+        //aldeanoScript.OnDefeatedEvent();
     }
 
     /*
